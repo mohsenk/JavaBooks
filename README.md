@@ -15,13 +15,13 @@ A curated list of books to help you master Java, ranging from beginner to advanc
 ### 1. *Head First Java* by Kathy Sierra & Bert Bates
 <a href="https://www.oreilly.com/library/view/head-first-java/9781492091646/"><img src="https://github.com/user-attachments/assets/4b47d757-fee1-4f29-a236-cdd3e250bfc2" width="200px" alt="head-first-java-by-kathy-sierra-and-bert-bates-cover"/></a>
 
-> Head First Java is an interactive and engaging introduction to Java programming. Using a brain-friendly approach, the book focuses on teaching fundamental concepts through visually rich pages, puzzles, and real-world scenarios. It's ideal for beginners looking to grasp object-oriented programming and Java basics in a fun, approachable way.
+Head First Java is an interactive and engaging introduction to Java programming. Using a brain-friendly approach, the book focuses on teaching fundamental concepts through visually rich pages, puzzles, and real-world scenarios. It's ideal for beginners looking to grasp object-oriented programming and Java basics in a fun, approachable way.
 
 ### 2. *Java: The Complete Reference* by Herbert Schildt
 
 <a href="https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230"><img src="https://github.com/user-attachments/assets/8d169264-18a4-4ea5-8cd8-3662d0ad1984" width="200px" alt="java-the-complete-reference-by-herbert-schildt-cover"/></a>
 
-> A comprehensive guide for learning Java programming from scratch. It’s detailed and covers almost everything you need to know about Java, making it a good reference for beginners and professionals alike.
+A comprehensive guide for learning Java programming from scratch. It’s detailed and covers almost everything you need to know about Java, making it a good reference for beginners and professionals alike.
 
 ---
 
@@ -41,7 +41,23 @@ A curated list of books to help you master Java, ranging from beginner to advanc
 
 <a href="https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601"><img src="https://github.com/user-attachments/assets/7c4fff75-902c-49e8-8f52-a145f33873f2" width="200px" alt="java-concurrency-in-practice-book-cover"/></a>
 
-> If you're interested in mastering Java concurrency, this is a must-read. The book covers everything from threading basics to advanced concurrency concepts, making it ideal for seasoned developers.
+If you're interested in mastering Java concurrency, this is a must-read. The book covers everything from threading basics to advanced concurrency concepts, making it ideal for seasoned developers.
+
+
+### 2. **Modern Java in Action: Lambdas, streams, functional and reactive programming** by Alan Mycroft, Mario Fusco, and Raoul-Gabriel Urma
+
+<a href="https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563"><img src="https://github.com/user-attachments/assets/f61a4c36-e43a-4a50-a5e9-1d7706be7f11" width="200px" alt="java-concurrency-in-practice-book-cover"/></a>
+
+Modern Java in Action connects new features of the Java language with their practical applications. Using crystal-clear examples and careful attention to detail, this book respects your time. It will help you expand your existing knowledge of core Java as you master modern additions like the Streams API and the Java Module System, explore new approaches to concurrency, and learn how functional concepts can help you write code that's easier to read and maintain.
+
+
+### 3. *Think Java: How to Think Like a Computer Scientist* by Allen Downey & Chris Mayfield
+
+<a href="https://www.amazon.com/dp/1492072508"><img src="https://github.com/user-attachments/assets/6f3d5732-3cae-4b76-836d-099f0b707929" width="200px" alt="think-java-how-to-think-like-a-computer-scientist-book-cover"/></a>
+
+Think Java is a hands-on introduction to computer science and programming used by many universities and high schools around the world. Its conciseness, emphasis on vocabulary, and informal tone make it particularly appealing for readers with little or no experience. The book starts with the most basic programming concepts and gradually works its way to advanced object-oriented techniques.
+
+In this fully updated and expanded edition, authors Allen Downey and Chris Mayfield introduce programming as a means for solving interesting problems. Each chapter presents material for one week of a college course and includes exercises to help you practice what you've learned. Along the way, you'll see nearly every topic required for the AP Computer Science A exam and Java SE Programmer I certification.
 
 ---
 
@@ -51,7 +67,7 @@ A curated list of books to help you master Java, ranging from beginner to advanc
 
 <a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612"><img src="https://github.com/user-attachments/assets/0e21519c-cfaf-468d-9579-6f8bf66e6e90" width="200px" alt="design-patterns-elements-of-reusable-object-oriented-software-by-erich-gamma-richard-helm-ralph-johnson-and-john-vlissides-book-cover"/></a>
 
-> Though not Java-specific, this classic book is crucial for Java developers interested in design patterns and object-oriented programming best practices.
+Though not Java-specific, this classic book is crucial for Java developers interested in design patterns and object-oriented programming best practices.
 
 ---
 
