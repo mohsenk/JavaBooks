@@ -31,7 +31,7 @@ A comprehensive guide for learning Java programming from scratch. It’s detaile
 
 <a href="https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997"><img src="https://github.com/user-attachments/assets/2f70a618-cd83-41e0-a280-90e87a861acf" width="200px" alt="effective-java-book-cover"/></a>
 
-> One of the best Java books for experienced programmers to learn best practices. The book is full of insightful tips to write better, cleaner, and more maintainable Java code.
+Since this Jolt-award winning classic was last updated in 2008, the Java programming environment has changed dramatically. Java 7 and Java 8 introduced new features and functions including, forEach() method in Iterable interface, default and static methods in Interfaces, Functional Interfaces and Lambda Expressions, Java Stream API for Bulk Data Operations on Collections, Java Time API, Collection API improvements, Concurrency API improvements, and Java IO improvements.
 
 ---
 
