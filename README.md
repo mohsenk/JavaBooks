@@ -44,7 +44,7 @@ Since this Jolt-award winning classic was last updated in 2008, the Java program
 If you're interested in mastering Java concurrency, this is a must-read. The book covers everything from threading basics to advanced concurrency concepts, making it ideal for seasoned developers.
 
 
-### 2. **Modern Java in Action: Lambdas, streams, functional and reactive programming** by Alan Mycroft, Mario Fusco, and Raoul-Gabriel Urma
+### 2. *Modern Java in Action: Lambdas, streams, functional and reactive programming* by Alan Mycroft, Mario Fusco, and Raoul-Gabriel Urma
 
 <a href="https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563"><img src="https://github.com/user-attachments/assets/f61a4c36-e43a-4a50-a5e9-1d7706be7f11" width="200px" alt="java-concurrency-in-practice-book-cover"/></a>
 
