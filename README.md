@@ -1,83 +1,119 @@
-# 📚 Awesome Java Books Collection
+# ☕ Awesome Java Books
 
-A curated list of books to help you master Java, ranging from beginner to advanced levels. Each book includes a brief description and cover to help you decide which is best for your needs.
+[![Website](https://img.shields.io/badge/website-live-c1440e?style=flat-square)](https://mohsenk.github.io/JavaBooks/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
+[![Last Commit](https://img.shields.io/github/last-commit/mohsenk/JavaBooks?style=flat-square)](https://github.com/mohsenk/JavaBooks/commits/main)
+
+A hand-curated, regularly updated guide to **43 of the best Java books**, organized by skill level — from your first "Hello, World" to JVM internals, Spring, and interview prep.
+
+**📖 [Browse the full site → mohsenk.github.io/JavaBooks](https://mohsenk.github.io/JavaBooks/)** — better browsing, search-friendly category pages, and always in sync with the list below.
+
+No filler, no paid placements — see [how books are chosen](https://mohsenk.github.io/JavaBooks/about/).
 
 ## Contents
-- [Beginner Java Books](#beginner-java-books)
-- [Intermediate Java Books](#intermediate-java-books)
-- [Advanced Java Books](#advanced-java-books)
-- [Java Design and Architecture Books](#java-design-and-architecture-books)
+
+- [🌱 Beginner Java Books](#-beginner-java-books)
+- [📘 Intermediate Java Books](#-intermediate-java-books)
+- [🔧 Advanced Java and Concurrency](#-advanced-java-and-concurrency)
+- [📐 Design Patterns and Architecture](#-design-patterns-and-architecture)
+- [🍃 Spring and Enterprise Java](#-spring-and-enterprise-java)
+- [🎯 Interview Prep and Certification](#-interview-prep-and-certification)
+- [Contributing](#contributing)
 
 ---
 
-## Beginner Java Books
+## 🌱 Beginner Java Books
 
-### 1. *Head First Java* by Kathy Sierra & Bert Bates
-<a href="https://www.oreilly.com/library/view/head-first-java/9781492091646/"><img src="https://github.com/user-attachments/assets/4b47d757-fee1-4f29-a236-cdd3e250bfc2" width="200px" alt="head-first-java-by-kathy-sierra-and-bert-bates-cover"/></a>
+New to Java or to programming altogether? These books teach core syntax and object-oriented basics before moving on to Java's more advanced features. → [Full list with covers and buy links](https://mohsenk.github.io/JavaBooks/books/beginner/)
 
-Head First Java is an interactive and engaging introduction to Java programming. Using a brain-friendly approach, the book focuses on teaching fundamental concepts through visually rich pages, puzzles, and real-world scenarios. It's ideal for beginners looking to grasp object-oriented programming and Java basics in a fun, approachable way.
+| Book | Author |
+|---|---|
+| *Head First Java*, 3rd Ed. | Kathy Sierra, Bert Bates, Trisha Gee |
+| *Java: The Complete Reference*, 13th Ed. | Herbert Schildt, Danny Coward |
+| *Think Java: How to Think Like a Computer Scientist*, 2nd Ed. | Allen B. Downey, Chris Mayfield |
+| *Core Java, Volume I: Fundamentals*, 13th Ed. | Cay S. Horstmann |
+| *Murach's Java Programming*, 6th Ed. | Joel Murach |
+| *Java: A Beginner's Guide*, 9th Ed. | Herbert Schildt |
+| *Java For Dummies*, 8th Ed. | Barry Burd |
+| *Beginning Java Programming: The Object-Oriented Approach* | Bart Baesens, Aimée Backiel, Seppe vanden Broucke |
 
-### 2. *Java: The Complete Reference* by Herbert Schildt
+## 📘 Intermediate Java Books
 
-<a href="https://www.amazon.com/Java-Complete-Reference-Eleventh/dp/1260440230"><img src="https://github.com/user-attachments/assets/8d169264-18a4-4ea5-8cd8-3662d0ad1984" width="200px" alt="java-the-complete-reference-by-herbert-schildt-cover"/></a>
+Once you're comfortable with syntax, these cover collections, generics, streams, and the idioms that separate a working programmer from a confident one. → [Full list](https://mohsenk.github.io/JavaBooks/books/intermediate/)
 
-A comprehensive guide for learning Java programming from scratch. It’s detailed and covers almost everything you need to know about Java, making it a good reference for beginners and professionals alike.
+| Book | Author |
+|---|---|
+| *Effective Java*, 3rd Ed. | Joshua Bloch |
+| *Modern Java in Action* | Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft |
+| *Core Java, Volume II—Advanced Features*, 12th Ed. | Cay S. Horstmann |
+| *Java by Comparison* | Simon Harrer, Jörg Lenhard, Linus Dietz |
+| *Functional Programming in Java*, 2nd Ed. | Venkat Subramaniam |
+| *The Well-Grounded Java Developer*, 2nd Ed. | Benjamin J. Evans, Martijn Verburg, Jason Clark |
+| *JUnit in Action*, 3rd Ed. | Catalin Tudose |
 
----
+## 🔧 Advanced Java and Concurrency
 
-## Intermediate Java Books
+Deep-dives into how the JVM actually runs your programs — concurrency, garbage collection, JIT compilation, and performance tuning. → [Full list](https://mohsenk.github.io/JavaBooks/books/advanced/)
 
-### 1. *Effective Java* by Joshua Bloch
+| Book | Author |
+|---|---|
+| *Java Concurrency in Practice* | Brian Goetz et al. |
+| *Java Performance*, 2nd Ed. | Scott Oaks |
+| *Optimizing Java* | Benjamin J. Evans, James Gough, Chris Newland |
+| *Java Performance Companion* | Charlie Hunt, Poonam Parhar, Bengt Rutisson, Monica Beckwith |
+| *Java Generics and Collections*, 2nd Ed. | Maurice Naftalin, Philip Wadler, Stuart Marks |
+| *Netty in Action* | Norman Maurer, Marvin Allen Wolfthal |
 
-<a href="https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997"><img src="https://github.com/user-attachments/assets/2f70a618-cd83-41e0-a280-90e87a861acf" width="200px" alt="effective-java-book-cover"/></a>
+## 📐 Design Patterns and Architecture
 
-Since this Jolt-award winning classic was last updated in 2008, the Java programming environment has changed dramatically. Java 7 and Java 8 introduced new features and functions including, forEach() method in Iterable interface, default and static methods in Interfaces, Functional Interfaces and Lambda Expressions, Java Stream API for Bulk Data Operations on Collections, Java Time API, Collection API improvements, Concurrency API improvements, and Java IO improvements.
+The foundational reads for moving past working code toward well-structured code. → [Full list](https://mohsenk.github.io/JavaBooks/books/design-architecture/)
 
----
+| Book | Author |
+|---|---|
+| *Design Patterns* (Gang of Four) | Gamma, Helm, Johnson, Vlissides |
+| *Head First Design Patterns*, 2nd Ed. | Eric Freeman, Elisabeth Robson |
+| *Clean Code* | Robert C. Martin |
+| *Clean Architecture* | Robert C. Martin |
+| *Patterns of Enterprise Application Architecture* | Martin Fowler |
+| *Domain-Driven Design* | Eric Evans |
+| *Refactoring* (1st Ed. — Java examples) | Martin Fowler, Kent Beck |
+| *Growing Object-Oriented Software, Guided by Tests* | Steve Freeman, Nat Pryce |
 
-## Advanced Java Books
+## 🍃 Spring and Enterprise Java
 
-### 1. *Java Concurrency in Practice* by Brian Goetz
+Spring and Spring Boot power most enterprise Java systems in production today. → [Full list](https://mohsenk.github.io/JavaBooks/books/spring-enterprise/)
 
-<a href="https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601"><img src="https://github.com/user-attachments/assets/7c4fff75-902c-49e8-8f52-a145f33873f2" width="200px" alt="java-concurrency-in-practice-book-cover"/></a>
+| Book | Author |
+|---|---|
+| *Spring in Action*, 6th Ed. | Craig Walls |
+| *Spring Start Here* | Laurentiu Spilca |
+| *Spring Security in Action*, 2nd Ed. | Laurentiu Spilca |
+| *Spring Microservices in Action*, 2nd Ed. | John Carnell, Illary Huaylupo Sánchez |
+| *Cloud Native Java* | Josh Long, Kenny Bastani |
+| *Java Persistence with Hibernate*, 2nd Ed. | Christian Bauer, Gavin King, Gary Gregory |
+| *Microservices Patterns* | Chris Richardson |
+| *Spring Boot: Up and Running* | Mark Heckler |
 
-If you're interested in mastering Java concurrency, this is a must-read. The book covers everything from threading basics to advanced concurrency concepts, making it ideal for seasoned developers.
+## 🎯 Interview Prep and Certification
 
+For chasing an Oracle Java certification or prepping for a Java-heavy coding interview. → [Full list](https://mohsenk.github.io/JavaBooks/books/interview-prep/)
 
-### 2. *Modern Java in Action: Lambdas, streams, functional and reactive programming* by Alan Mycroft, Mario Fusco, and Raoul-Gabriel Urma
-
-<a href="https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563"><img src="https://github.com/user-attachments/assets/f61a4c36-e43a-4a50-a5e9-1d7706be7f11" width="200px" alt="java-concurrency-in-practice-book-cover"/></a>
-
-Modern Java in Action connects new features of the Java language with their practical applications. Using crystal-clear examples and careful attention to detail, this book respects your time. It will help you expand your existing knowledge of core Java as you master modern additions like the Streams API and the Java Module System, explore new approaches to concurrency, and learn how functional concepts can help you write code that's easier to read and maintain.
-
-
-### 3. *Think Java: How to Think Like a Computer Scientist* by Allen Downey & Chris Mayfield
-
-<a href="https://www.amazon.com/dp/1492072508"><img src="https://github.com/user-attachments/assets/6f3d5732-3cae-4b76-836d-099f0b707929" width="200px" alt="think-java-how-to-think-like-a-computer-scientist-book-cover"/></a>
-
-Think Java is a hands-on introduction to computer science and programming used by many universities and high schools around the world. Its conciseness, emphasis on vocabulary, and informal tone make it particularly appealing for readers with little or no experience. The book starts with the most basic programming concepts and gradually works its way to advanced object-oriented techniques.
-
-In this fully updated and expanded edition, authors Allen Downey and Chris Mayfield introduce programming as a means for solving interesting problems. Each chapter presents material for one week of a college course and includes exercises to help you practice what you've learned. Along the way, you'll see nearly every topic required for the AP Computer Science A exam and Java SE Programmer I certification.
-
----
-
-## Java Design and Architecture Books
-
-### 1. *Design Patterns: Elements of Reusable Object-Oriented Software* by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides
-
-<a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612"><img src="https://github.com/user-attachments/assets/0e21519c-cfaf-468d-9579-6f8bf66e6e90" width="200px" alt="design-patterns-elements-of-reusable-object-oriented-software-by-erich-gamma-richard-helm-ralph-johnson-and-john-vlissides-book-cover"/></a>
-
-Though not Java-specific, this classic book is crucial for Java developers interested in design patterns and object-oriented programming best practices.
+| Book | Author |
+|---|---|
+| *OCP Java SE 21 Developer Study Guide* (1Z0-830) | Jeanne Boyarsky, Scott Selikoff |
+| *OCA Java SE 8 Programmer I Study Guide* (1Z0-808) | Jeanne Boyarsky, Scott Selikoff |
+| *Cracking the Coding Interview*, 6th Ed. | Gayle Laakmann McDowell |
+| *Elements of Programming Interviews in Java* | Adnan Aziz, Tsung-Hsien Lee, Amit Prakash |
+| *Java Coding Problems*, 2nd Ed. | Anghel Leonard |
+| *The Complete Coding Interview Guide in Java* | Anghel Leonard |
 
 ---
 
 ## Contributing
 
-If you want to add more books, please create a pull request with the book details (title, author, cover image URL, and a brief description).
-
----
+Found an outdated edition, a broken link, or think a book deserves a spot? See [CONTRIBUTING.md](CONTRIBUTING.md) — all book data lives in one file ([`docs/_data/books.yml`](docs/_data/books.yml)) that powers both this README and the live site.
 
 ## License
 
-This project is licensed under the MIT License.
-
+This project is licensed under the [MIT License](LICENSE).

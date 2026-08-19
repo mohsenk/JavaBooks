@@ -1,0 +1,25 @@
+<nav class="breadcrumbs wrap" aria-label="Breadcrumb">
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <span class="sep">/</span>
+  <span>{{ include.name }}</span>
+</nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": {{ "/" | absolute_url | jsonify }}
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ include.name | jsonify }},
+      "item": {{ include.url | absolute_url | jsonify }}
+    }
+  ]
+}
+</script>

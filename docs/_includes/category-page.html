@@ -1,0 +1,38 @@
+{% assign cat = site.data.books | where: "slug", include.slug | first %}
+{% include breadcrumbs.html name=cat.category url=page.url %}
+
+<header class="page-header wrap">
+  <span class="level-pill">{{ cat.level_label | default: "Java Books" }}</span>
+  <h1>{{ cat.category }}</h1>
+  <p class="lede">{{ cat.intro }}</p>
+</header>
+
+<section class="wrap" style="padding-bottom:64px;">
+  <div class="book-grid">
+    {% for book in cat.books %}
+      {% include book-card.html book=book rank=forloop.index %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Explore other categories</h2>
+    </div>
+    <div class="category-grid">
+      {% for other in site.data.books %}
+        {% unless other.slug == include.slug %}
+        <a class="category-card" href="{{ '/books/' | append: other.slug | append: '/' | relative_url }}">
+          <span class="icon">{{ other.icon }}</span>
+          <h3>{{ other.category }}</h3>
+          <p>{{ other.intro | truncatewords: 16 }}</p>
+          <span class="count">{{ other.books | size }} books →</span>
+        </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include itemlist-jsonld.html books=cat.books name=cat.category %}

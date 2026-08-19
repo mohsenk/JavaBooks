@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ include.name | jsonify }},
+  "itemListElement": [
+    {% for book in include.books %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "item": {
+        "@type": "Book",
+        "name": {{ book.title | jsonify }},
+        "author": {
+          "@type": "Person",
+          "name": {{ book.author | jsonify }}
+        }
+        {% if book.isbn13 %},"isbn": {{ book.isbn13 | jsonify }}{% endif %}
+        {% if book.publisher %},"publisher": {
+          "@type": "Organization",
+          "name": {{ book.publisher | jsonify }}
+        }{% endif %}
+        {% if book.year %},"datePublished": {{ book.year | jsonify }}{% endif %}
+        {% if book.cover_image_url %},"image": {{ book.cover_image_url | jsonify }}{% endif %}
+        {% if book.blurb %},"description": {{ book.blurb | jsonify }}{% endif %}
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>

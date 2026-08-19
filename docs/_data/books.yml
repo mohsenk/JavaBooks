@@ -1,0 +1,658 @@
+- category: "Beginner Java Books"
+  slug: "beginner"
+  icon: "🌱"
+  level_label: "Beginner"
+  intro: "New to Java or to programming altogether? These are the best Java books for beginners in 2026 — hands-on, well-tested guides that take you from zero to writing real object-oriented programs. Each title below was picked for how clearly it explains core concepts like variables, classes, and control flow before moving on to Java's more advanced features."
+  books:
+    - title: "Head First Java: A Learner's Guide to Real-World Programming"
+      author: "Kathy Sierra, Bert Bates, Trisha Gee"
+      edition: "3rd Edition"
+      year: 2022
+      isbn13: "9781491910771"
+      publisher: "O'Reilly Media"
+      level: "Beginner"
+      blurb: "A visually driven, puzzle-and-story approach to learning Java that trades dry syntax dumps for exercises, illustrations, and 'brain-friendly' explanations. This third edition brings the material up through Java 17 and adds coverage of lambdas, streams, and modern collections. Best suited to readers who find traditional programming textbooks tough to stay engaged with."
+      best_for: "First-time programmers who want an engaging, visual approach"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781491910771-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781491910771"
+        oreilly: "https://www.oreilly.com/search/?q=Head%20First%20Java%203rd%20Edition"
+        publisher: "https://www.oreilly.com/library/view/head-first-java/9781492091646/"
+
+    - title: "Java: The Complete Reference"
+      author: "Herbert Schildt, Danny Coward"
+      edition: "13th Edition"
+      year: 2024
+      isbn13: "9781265058432"
+      publisher: "McGraw Hill"
+      level: "Beginner"
+      blurb: "A comprehensive, encyclopedic tour of the Java language and core API, updated for Java SE 21 with features like pattern matching in switch and virtual threads. It works well as both a structured first read and a reference to keep on the shelf afterward. Newcomers should expect a denser, more traditional textbook style than the Head First series."
+      best_for: "Beginners who want one thorough reference that grows with them"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781265058432-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781265058432"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20The%20Complete%20Reference%2013th%20Edition"
+        publisher: "https://www.mheducation.com/highered/mhp/product/java-complete-reference-thirteenth-edition.html"
+
+    - title: "Think Java: How to Think Like a Computer Scientist"
+      author: "Allen B. Downey, Chris Mayfield"
+      edition: "2nd Edition"
+      year: 2019
+      isbn13: "9781492072508"
+      publisher: "O'Reilly Media"
+      level: "Beginner"
+      blurb: "A concise, classroom-tested introduction that treats Java as a vehicle for learning to think like a programmer, not just memorize syntax. It's built from real college and AP Computer Science A courses, so each short chapter maps to a week of study and builds steadily toward object-oriented design. A good fit for readers who prefer a slower, concept-first pace over a big reference-style book."
+      best_for: "Students and self-learners who want a structured, course-like intro"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781492072508-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781492072508"
+        oreilly: "https://www.oreilly.com/search/?q=Think%20Java%202nd%20Edition"
+        publisher: "https://greenteapress.com/wp/think-java-2e/"
+
+    - title: "Core Java, Volume I: Fundamentals"
+      author: "Cay S. Horstmann"
+      edition: "13th Edition"
+      year: 2024
+      isbn13: "9780135328378"
+      publisher: "Oracle Press / Addison-Wesley"
+      level: "Beginner"
+      blurb: "A rigorous, example-heavy walk through Java fundamentals from a long-time trainer and well-known Java author, updated to reflect Java 21. It leans more formal than the Head First series but explains the 'why' behind language features rather than just listing syntax, making it a strong second book after a lighter introduction. Volume II picks up advanced topics once you finish this one."
+      best_for: "Motivated beginners who want depth without marketing fluff"
+      cover_image_url: "https://images-na.ssl-images-amazon.com/images/P/0135328373.01.LZZZZZZZ.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780135328378"
+        oreilly: "https://www.oreilly.com/search/?q=Core%20Java%20Volume%20I%20Fundamentals%2013th%20Edition"
+        publisher: "https://horstmann.com/corejava.html"
+
+    - title: "Murach's Java Programming"
+      author: "Joel Murach"
+      edition: "6th Edition"
+      year: 2022
+      isbn13: "9781943872879"
+      publisher: "Mike Murach & Associates"
+      level: "Beginner"
+      blurb: "A paced, exercise-driven textbook aimed squarely at people with zero programming background, built around Murach's signature 'paired pages' format that pairs explanation with runnable code side by side. It covers both NetBeans and Eclipse workflows and builds toward small complete applications rather than isolated snippets. Its classroom pedigree makes it a solid choice for self-study or a first course."
+      best_for: "Absolute beginners who like a self-paced, guided workbook style"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781943872879-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781943872879"
+        oreilly: "https://www.oreilly.com/search/?q=Murach%27s%20Java%20Programming"
+        publisher: "https://www.murach.com/shop/murach-s-java-programming-6th-edition-detail"
+
+    - title: "Java: A Beginner's Guide"
+      author: "Herbert Schildt"
+      edition: "9th Edition"
+      year: 2022
+      isbn13: "9781260463552"
+      publisher: "McGraw Hill"
+      level: "Beginner"
+      blurb: "A step-by-step, no-prior-experience-assumed guide from the author of Java: The Complete Reference, walking readers from installing a JDK through writing, compiling, and running their first programs. It's updated for Java SE 17 and gradually introduces multithreading, generics, lambdas, and Swing after covering the core language. A shorter, friendlier companion to Schildt's much bigger reference book."
+      best_for: "Readers who want Schildt's teaching style in a lighter package"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781260463552-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781260463552"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20A%20Beginner%27s%20Guide%209th%20Edition"
+        publisher: "https://www.mheducation.com/highered/product/java-beginner-s-guide-ninth-edition-schildt/9781260463552.html"
+
+    - title: "Java For Dummies"
+      author: "Barry Burd"
+      edition: "8th Edition"
+      year: 2022
+      isbn13: "9781119861645"
+      publisher: "For Dummies (Wiley)"
+      level: "Beginner"
+      blurb: "A friendly, jargon-light entry point that assumes nothing and explains Java concepts through plain-language analogies before showing the code. Written by a longtime computer science professor, it covers building classes and objects, then moves into newer features added through Java 17. Its casual tone makes it a comfortable starting point for readers intimidated by denser textbooks."
+      best_for: "Total beginners who want the gentlest possible on-ramp"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781119861645-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781119861645"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20For%20Dummies%208th%20Edition"
+        publisher: "https://www.wiley.com/en-us/search?pq=Java%20For%20Dummies%2C%208th%20Edition"
+
+    - title: "Beginning Java Programming: The Object-Oriented Approach"
+      author: "Bart Baesens, Aimée Backiel, Seppe vanden Broucke"
+      year: 2015
+      isbn13: "9781118739495"
+      publisher: "Wrox (Wiley)"
+      level: "Beginner"
+      blurb: "Developed from a university course the authors taught, this book builds up object-oriented thinking gradually alongside Java syntax, using an IDE-based workflow and exercises based on realistic business scenarios. Its final chapters use case studies that tie multiple concepts together into small working systems. A good fit for readers who want an academic, business-context flavor rather than a hobbyist tone."
+      best_for: "Career-changers and students wanting a business-oriented intro"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781118739495-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781118739495"
+        oreilly: "https://www.oreilly.com/search/?q=Beginning%20Java%20Programming%20Object-Oriented%20Approach"
+        publisher: "https://www.wiley.com/en-us/Beginning+Java+Programming%3A+The+Object-Oriented+Approach-p-9781118739495"
+
+- category: "Intermediate Java Books"
+  slug: "intermediate"
+  icon: "📘"
+  level_label: "Intermediate"
+  intro: "Once you're comfortable with Java syntax, these are the best intermediate Java books for leveling up your skills — collections, generics, streams, lambdas, and cleaner idioms that separate a working programmer from a confident one. Each pick below focuses on writing more expressive, maintainable Java rather than absolute-beginner basics or deep JVM internals."
+  books:
+    - title: "Effective Java"
+      author: "Joshua Bloch"
+      edition: "3rd Edition"
+      year: 2018
+      isbn13: "9780134685991"
+      publisher: "Addison-Wesley"
+      level: "Intermediate"
+      blurb: "Joshua Bloch's item-by-item guide distills decades of API design experience from his time leading Java platform work at Sun and Google into concrete, justified rules covering generics, enums, lambdas, streams, and object lifecycle. The 3rd edition folds in Java 7 through 9 features while keeping the same terse, example-driven format. It works both as a cover-to-cover read once you already know core Java and as a reference to consult when a specific design question comes up."
+      best_for: "Java developers who want to write more idiomatic, defensible code"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780134685991-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780134685991"
+        oreilly: "https://www.oreilly.com/search/?q=Effective%20Java"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/effective-java/P200000000138/9780134685991"
+
+    - title: "Modern Java in Action: Lambdas, Streams, Functional and Reactive Programming"
+      author: "Raoul-Gabriel Urma, Mario Fusco, Alan Mycroft"
+      year: 2018
+      isbn13: "9781617293566"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "This is the book that reframes how you think about Java once lambdas and streams enter the picture. It walks from basic lambda syntax through the Streams API, then into more advanced functional patterns like Optional and CompletableFuture, with a light touch on reactive programming and the module system. Written for developers who already write Java daily but still reach for old-style loops and mutation out of habit."
+      best_for: "Developers moving to functional-style, stream-based Java"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781617293566-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617293566"
+        oreilly: "https://www.oreilly.com/search/?q=Modern%20Java%20in%20Action"
+        publisher: "https://www.manning.com/books/modern-java-in-action"
+
+    - title: "Core Java, Volume II—Advanced Features"
+      author: "Cay S. Horstmann"
+      edition: "12th Edition"
+      year: 2022
+      isbn13: "9780137871070"
+      publisher: "Pearson / Oracle Press"
+      level: "Intermediate"
+      blurb: "The companion to Horstmann's Volume I, this book picks up once you know core syntax and moves into streams, XML, networking, databases, internationalization, and security APIs. It's organized as a reference you dip into chapter by chapter rather than read cover to cover. A solid pick for developers who want authoritative, example-heavy coverage of the standard library's less-basic corners."
+      best_for: "Developers who want a deep reference beyond core syntax"
+      cover_image_url: "https://www.informit.com/ShowCover.aspx?isbn=9780137871070&type=f"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780137871070"
+        oreilly: "https://www.oreilly.com/search/?q=Core%20Java%20Volume%20II%20Advanced%20Features"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/core-java-advanced-features-volume-2/P200000007385/9780137871070"
+
+    - title: "Java by Comparison: Become a Java Craftsman in 70 Examples"
+      author: "Simon Harrer, Jörg Lenhard, Linus Dietz"
+      year: 2018
+      isbn13: "9781680502879"
+      publisher: "Pragmatic Bookshelf"
+      level: "Intermediate"
+      blurb: "A short, focused book built entirely around side-by-side before-and-after code examples — each one taking a common but flawed snippet and showing exactly how and why to improve it. It covers naming, exception handling, testing, and general code hygiene rather than any single Java feature. Best suited to developers who already know the syntax and now want to write code a teammate would actually enjoy reviewing."
+      best_for: "Developers who want tighter, more professional-looking code"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781680502879-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781680502879"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20by%20Comparison"
+        publisher: "https://pragprog.com/titles/javacomp/java-by-comparison/"
+
+    - title: "Functional Programming in Java: Harness the Power of Streams and Lambda Expressions"
+      author: "Venkat Subramaniam"
+      edition: "2nd Edition"
+      year: 2023
+      isbn13: "9781680509793"
+      publisher: "Pragmatic Bookshelf"
+      level: "Intermediate"
+      blurb: "A hands-on introduction to thinking functionally in Java, built around small, practical exercises rather than theory. It covers lambdas, method references, and the Streams API, then goes further into error handling and refactoring imperative code into functional style. Good for developers who understand streams syntactically but still write imperative code out of reflex."
+      best_for: "Developers wanting a practical, exercise-driven functional-Java primer"
+      cover_image_url: "https://pragprog.com/titles/vsjava2e/vsjava2e-large.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781680509793"
+        oreilly: "https://www.oreilly.com/search/?q=Functional%20Programming%20in%20Java%20Subramaniam"
+        publisher: "https://pragprog.com/titles/vsjava2e/functional-programming-in-java-second-edition/"
+
+    - title: "The Well-Grounded Java Developer"
+      author: "Benjamin J. Evans, Martijn Verburg, Jason Clark"
+      edition: "2nd Edition"
+      year: 2022
+      isbn13: "9781617298875"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "Written explicitly for developers past the beginner stage, this book brings you up to speed on everything that changed in Java from version 8 onward — modules, newer language features, build tooling with Maven and Gradle, and a broad tour of the wider JVM ecosystem including Kotlin. It's intentionally wide-ranging rather than narrowly focused, making it a good way to fill gaps in a developer's mental map of modern Java."
+      best_for: "Developers catching up on modern Java and its ecosystem"
+      cover_image_url: "https://images.manning.com/360/480/resize/book/8/211404c-5150-4359-9596-e9026710d5df/Evans2ed-HI.png"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617298875"
+        oreilly: "https://www.oreilly.com/search/?q=The%20Well-Grounded%20Java%20Developer"
+        publisher: "https://www.manning.com/books/the-well-grounded-java-developer-second-edition"
+
+    - title: "JUnit in Action"
+      author: "Catalin Tudose"
+      edition: "3rd Edition"
+      year: 2020
+      isbn13: "9781617297045"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "A practical, thorough guide to testing Java code well, built around JUnit 5's newer architecture — nested and parameterized tests, dependency injection, and mocking with Mockito. It also covers testing in context: databases, REST APIs, and build-pipeline integration. A natural next step for developers who know how to write a basic @Test method but haven't yet learned to design a real test suite."
+      best_for: "Developers who want to write real, maintainable test suites"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781617297045-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617297045"
+        oreilly: "https://www.oreilly.com/search/?q=JUnit%20in%20Action%20Third%20Edition"
+        publisher: "https://www.manning.com/books/junit-in-action-third-edition"
+
+- category: "Advanced Java & Concurrency"
+  slug: "advanced"
+  icon: "⚙️"
+  level_label: "Advanced"
+  intro: "These books go beyond day-to-day application code into how the JVM actually runs your programs — Java concurrency and multithreading, garbage collection, JIT compilation, generics internals, and performance tuning. They're written for developers who already know Java well and want to diagnose real production problems, not just follow generic tuning checklists."
+  books:
+    - title: "Java Concurrency in Practice"
+      author: "Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea"
+      year: 2006
+      isbn13: "9780321349606"
+      publisher: "Addison-Wesley"
+      level: "Advanced"
+      blurb: "Written by Brian Goetz together with several members of the JSR-166 expert group (including Doug Lea and Joshua Bloch), this book breaks down the theory and practice of writing correct, thread-safe Java code — covering the Java Memory Model, locks, atomics, and the java.util.concurrent library. It remains the book many teams point new hires to before they touch multithreaded code. Best suited for developers who already know core Java and want a rigorous mental model for concurrency rather than a quick tutorial."
+      best_for: "Developers who need a rigorous foundation in Java concurrency"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780321349606-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780321349606"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20Concurrency%20in%20Practice"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/java-concurrency-in-practice/P200000009374/9780321349606"
+
+    - title: "Java Performance: In-Depth Advice for Tuning and Programming Java 8, 11, and Beyond"
+      author: "Scott Oaks"
+      edition: "2nd Edition"
+      year: 2020
+      isbn13: "9781492056119"
+      publisher: "O'Reilly Media"
+      level: "Advanced"
+      blurb: "Scott Oaks explains how the HotSpot JVM actually executes and optimizes code, then applies that to garbage collection tuning, JIT compilation, threading, and I/O performance. This second edition updates the original guide for Java 8 and 11, including newer collectors like G1. It suits engineers who need to diagnose real production performance problems rather than follow generic tuning checklists."
+      best_for: "Engineers tuning JVM performance and GC behavior in production"
+      cover_image_url: "https://images-na.ssl-images-amazon.com/images/P/1492056111.01.LZZZZZZZ.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781492056119"
+        oreilly: "https://www.oreilly.com/library/view/java-performance-2nd/9781492056102/"
+        publisher: "https://www.oreilly.com/library/view/java-performance-2nd/9781492056102/"
+
+    - title: "Optimizing Java: Practical Techniques for Improving JVM Application Performance"
+      author: "Benjamin J. Evans, James Gough, Chris Newland"
+      year: 2018
+      isbn13: "9781492025795"
+      publisher: "O'Reilly Media"
+      level: "Advanced"
+      blurb: "Evans, Gough, and Newland lay out a measurement-first approach to Java performance work, showing how to benchmark correctly, read JIT compiler output, and reason about memory and concurrency costs before making changes. The book leans on tooling — JITWatch, profilers, flight recorder — more than a typical tuning book, reflecting the authors' backgrounds in JVM tooling and low-latency systems. It's aimed at practitioners who want a repeatable, evidence-based process rather than folklore."
+      best_for: "Practitioners who want a tooling-driven, evidence-based approach to JVM tuning"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781492025795-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781492025795"
+        oreilly: "https://www.oreilly.com/library/view/optimizing-java/9781492039259/"
+        publisher: "https://www.oreilly.com/library/view/optimizing-java/9781492039259/"
+
+    - title: "Java Performance Companion"
+      author: "Charlie Hunt, Poonam Parhar, Bengt Rutisson, Monica Beckwith"
+      year: 2016
+      isbn13: "9780133796827"
+      publisher: "Addison-Wesley Professional"
+      level: "Advanced"
+      blurb: "Written by current and former Oracle JVM engineers, this book picks up where general performance guides leave off, going deep on the Garbage-First (G1) collector's internals and the HotSpot Serviceability Agent for postmortem diagnosis. It's less a general tuning primer and more a specialist reference for engineers who already understand JVM basics and need to reason about GC log internals or debug a live JVM with its own serviceability tooling."
+      best_for: "JVM specialists debugging GC internals and using the Serviceability Agent"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780133796827-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780133796827"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20Performance%20Companion"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/java-performance-companion/P200000009127/9780133796827"
+
+    - title: "Java Generics and Collections: Fundamentals and Recommended Practices"
+      author: "Maurice Naftalin, Philip Wadler, Stuart Marks"
+      edition: "2nd Edition"
+      year: 2025
+      isbn13: "9781098136727"
+      publisher: "O'Reilly Media"
+      level: "Advanced"
+      blurb: "Naftalin and Wadler give one of the clearest explanations available of how Java generics actually work under erasure, including the wildcard rules and corner cases that trip up even experienced developers, paired with a thorough tour of the Collections Framework. This second edition brings the material up to Java 21, adding coverage of sequenced collections and how streams and lambdas interact with generic code. Good for developers who use generics daily but want to understand the type system well enough to design their own generic APIs."
+      best_for: "Developers who want to master Java's generics and collections type system"
+      cover_image_url: "https://images-na.ssl-images-amazon.com/images/P/1098136721.01.LZZZZZZZ.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781098136727"
+        oreilly: "https://www.oreilly.com/library/view/java-generics-and/9781098136710/"
+        publisher: "https://www.oreilly.com/library/view/java-generics-and/9781098136710/"
+
+    - title: "Netty in Action"
+      author: "Norman Maurer, Marvin Allen Wolfthal"
+      year: 2015
+      isbn13: "9781617291470"
+      publisher: "Manning Publications"
+      level: "Advanced"
+      blurb: "Written by one of Netty's core maintainers, this book explains the asynchronous, event-driven Netty framework that underlies many high-throughput Java network servers — channels, event loops, and codecs for building non-blocking clients and servers. It favors hands-on examples over API reference dumps, showing why so much Java infrastructure tooling is built on top of it. Best suited for developers who already write concurrent Java and need to build or maintain high-performance network services."
+      best_for: "Developers building high-throughput, non-blocking network servers in Java"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781617291470-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617291470"
+        oreilly: "https://www.oreilly.com/search/?q=Netty%20in%20Action"
+        publisher: "https://www.manning.com/books/netty-in-action"
+
+- category: "Design Patterns & Architecture"
+  slug: "design-architecture"
+  icon: "🏛️"
+  level_label: "Design & Architecture"
+  intro: "These are the foundational reads Java developers reach for when they want to move past working code toward well-structured code — the original design pattern catalog, the books that shaped how the Java ecosystem thinks about clean code and clean architecture, and the enterprise and domain modeling classics that still underpin Spring-style application design today."
+  books:
+    - title: "Design Patterns: Elements of Reusable Object-Oriented Software"
+      author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides"
+      year: 1994
+      isbn13: "9780201633610"
+      publisher: "Addison-Wesley"
+      level: "Advanced"
+      blurb: "Written by the 'Gang of Four,' this is the book that gave the industry a shared vocabulary of 23 object-oriented patterns, from Singleton to Visitor. Its examples are in C++ and Smalltalk rather than Java, but nearly every Java framework and API you use today (java.util.Iterator, Spring's factories, decorators in java.io) is built on the vocabulary this book introduced. Best treated as a reference to dip into once you already have some OOP experience, not a first read."
+      best_for: "Developers who want the original vocabulary behind object-oriented design patterns"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780201633610"
+        oreilly: "https://www.oreilly.com/library/view/design-patterns-elements/0201633612/"
+        publisher: "https://www.oreilly.com/library/view/design-patterns-elements/0201633612/"
+
+    - title: "Head First Design Patterns: Building Extensible and Maintainable Object-Oriented Software"
+      author: "Eric Freeman, Elisabeth Robson"
+      edition: "2nd Edition"
+      year: 2021
+      isbn13: "9781492078005"
+      publisher: "O'Reilly Media"
+      level: "Intermediate"
+      blurb: "A friendly, visually driven walkthrough of the same core design patterns the GoF catalog defined, but explained through worked scenarios, diagrams, and running Java code rather than dense prose. The second edition updates its examples for modern Java (lambdas, streams) and is generally considered the easiest on-ramp into design patterns for working developers. Good as a companion or a more approachable alternative to the original GoF book."
+      best_for: "Developers who want design patterns taught through examples rather than theory"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781492078005-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781492078005"
+        oreilly: "https://www.oreilly.com/library/view/head-first-design/9781492077992/"
+        publisher: "https://www.oreilly.com/library/view/head-first-design/9781492077992/"
+
+    - title: "Clean Code: A Handbook of Agile Software Craftsmanship"
+      author: "Robert C. Martin"
+      year: 2008
+      isbn13: "9780132350884"
+      publisher: "Prentice Hall"
+      level: "Intermediate"
+      blurb: "Robert Martin's argument for treating naming, functions, formatting, and error handling as first-class design decisions, illustrated almost entirely with Java code and Java-centric refactoring case studies. It's opinionated and sometimes contested in the community, but it remains one of the most widely referenced books on day-to-day code quality among Java teams. Best read after you already have some professional Java experience so you can weigh its advice critically rather than dogmatically."
+      best_for: "Developers who want cleaner, more maintainable code at the function and class level"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780132350884"
+        oreilly: "https://www.oreilly.com/library/view/clean-code-a/9780136083238/"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/clean-code-a-handbook-of-agile-software-craftsmanship/P200000009044"
+
+    - title: "Clean Architecture: A Craftsman's Guide to Software Structure and Design"
+      author: "Robert C. Martin"
+      year: 2017
+      isbn13: "9780134494166"
+      publisher: "Prentice Hall"
+      level: "Advanced"
+      blurb: "Martin's follow-up to Clean Code zooms out from individual methods to whole-system structure, arguing for dependency rules that keep business logic independent of frameworks, databases, and UI. It's language-agnostic in its diagrams but draws its worked examples largely from the Java/OOP world its author comes from, and its layering approach has become a common reference point in Spring Boot project structuring. Assumes you already understand basic design principles like SOLID."
+      best_for: "Developers and architects designing the high-level structure of an application"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780134494166-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780134494166"
+        oreilly: "https://www.oreilly.com/library/view/clean-architecture-a/9780134494272/"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/clean-architecture-a-craftsmans-guide-to-software-structure-and-design/P200000009517"
+
+    - title: "Patterns of Enterprise Application Architecture"
+      author: "Martin Fowler"
+      year: 2002
+      isbn13: "9780321127426"
+      publisher: "Addison-Wesley"
+      level: "Advanced"
+      blurb: "A catalog of over 40 recurring solutions for structuring data-heavy business applications — layering, object-relational mapping strategies, session state, and concurrency patterns like Optimistic Offline Lock. Code samples are given in both Java and C#, and many of its patterns (Data Mapper, Unit of Work, Repository) are directly visible in how Java ORMs like Hibernate and JPA are shaped. Dense and reference-like; most useful once you're already building multi-layered server-side systems."
+      best_for: "Backend developers designing the data and service layers of enterprise systems"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780321127426-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780321127426"
+        oreilly: "https://www.oreilly.com/library/view/patterns-of-enterprise/0321127420/"
+        publisher: "https://martinfowler.com/books/eaa.html"
+
+    - title: "Domain-Driven Design: Tackling Complexity in the Heart of Software"
+      author: "Eric Evans"
+      year: 2003
+      isbn13: "9780321125217"
+      publisher: "Addison-Wesley"
+      level: "Advanced"
+      blurb: "Known in the community as 'the Blue Book,' this is the source text for domain-driven design: ubiquitous language, bounded contexts, aggregates, entities versus value objects, and modeling software around a shared understanding of the business domain. Its code samples are Java, and DDD's vocabulary now underlies how many Java teams structure Spring or Jakarta EE applications around domain modules rather than technical layers. It's conceptually dense and repays a second read once you've tried applying it."
+      best_for: "Developers and architects tackling complex business domains, not just CRUD apps"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780321125217-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780321125217"
+        oreilly: "https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/"
+        publisher: "https://www.dddcommunity.org/book/evans_2003/"
+
+    - title: "Refactoring: Improving the Design of Existing Code"
+      author: "Martin Fowler, Kent Beck"
+      year: 1999
+      isbn13: "9780201485677"
+      publisher: "Addison-Wesley"
+      level: "Intermediate"
+      blurb: "This is the 1st edition, whose worked examples and refactoring catalog are written in Java — note that Fowler's 2018 2nd edition rewrote all the examples in JavaScript, so this original printing is the one to pick for a Java-specific read. It walks through named, small, behavior-preserving transformations (Extract Method, Replace Conditional with Polymorphism, etc.) using a running Java example, teaching you to recognize 'code smells' and fix them incrementally."
+      best_for: "Java developers who want a systematic, example-driven approach to improving existing code"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780201485677-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780201485677"
+        oreilly: "https://www.oreilly.com/library/view/refactoring-improving-the/0201485672/"
+        publisher: "https://martinfowler.com/books/refactoring.html"
+
+    - title: "Growing Object-Oriented Software, Guided by Tests"
+      author: "Steve Freeman, Nat Pryce"
+      year: 2009
+      isbn13: "9780321503626"
+      publisher: "Addison-Wesley"
+      level: "Advanced"
+      blurb: "A practical, project-length walkthrough of test-driven development done at the object-design level, built end-to-end in Java using JUnit and the authors' own mocking library (a forerunner of jMock/Mockito-style thinking). It shows how outside-in TDD and careful attention to object collaboration naturally lead to better-decomposed, more testable designs, rather than treating testing and design as separate concerns."
+      best_for: "Developers who want to see TDD and OO design practiced together on a real Java codebase"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780321503626-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780321503626"
+        oreilly: "https://www.oreilly.com/library/view/growing-object-oriented-software/9780321574442/"
+        publisher: "https://www.pearson.com/en-us/subject-catalog/p/growing-object-oriented-software-guided-by-tests/P200000009337"
+
+- category: "Spring & Enterprise Java"
+  slug: "spring-enterprise"
+  icon: "🍃"
+  level_label: "Spring & Enterprise"
+  intro: "Spring Framework and Spring Boot power the majority of enterprise Java systems in production today, and this shelf collects the best Spring Boot books and enterprise Java references for building REST APIs, securing applications, and designing cloud-native microservices. Whether you're learning Spring for the first time or architecting distributed systems, these titles cover the practical patterns and tools real teams rely on."
+  books:
+    - title: "Spring in Action, Sixth Edition"
+      author: "Craig Walls"
+      edition: "6th Edition"
+      year: 2022
+      isbn13: "9781617297571"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "The long-running flagship guide to the Spring Framework, rewritten for Spring 5.3 and Spring Boot 2.4. It walks through building web applications, working with relational and NoSQL data, securing endpoints, and adopting reactive programming with Spring WebFlux. A solid choice for developers who already know core Java and want a thorough, example-driven tour of modern Spring."
+      best_for: "Java developers who want a comprehensive, up-to-date map of the Spring Boot ecosystem"
+      cover_image_url: "https://images.manning.com/264/352/resize/book/c/108ea71-54af-47b6-9c39-148a1dc0ce4c/Walls-Spring-6ed-HI.png"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617297571"
+        oreilly: "https://www.oreilly.com/search/?q=Spring%20in%20Action%2C%20Sixth%20Edition"
+        publisher: "https://www.manning.com/books/spring-in-action-sixth-edition"
+
+    - title: "Spring Start Here: Learn what you need and learn it well"
+      author: "Laurentiu Spilca"
+      year: 2021
+      isbn13: "9781617298691"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "A gentler on-ramp into Spring than most reference books, built around small, focused examples rather than a single large project. It introduces dependency injection, Spring MVC, data access, and Spring Security step by step, favoring conceptual clarity over exhaustive feature coverage. Good for developers who found other Spring books overwhelming and want the fundamentals to click first."
+      best_for: "Developers new to Spring who want the core concepts explained clearly before diving into bigger projects"
+      cover_image_url: "https://images.manning.com/264/352/resize/book/d/8767025-cf7f-4249-94f4-083c2b16b2e7/Spilca2-HI.png"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617298691"
+        oreilly: "https://www.oreilly.com/search/?q=Spring%20Start%20Here"
+        publisher: "https://www.manning.com/books/spring-start-here"
+
+    - title: "Spring Security in Action, Second Edition"
+      author: "Laurentiu Spilca"
+      edition: "2nd Edition"
+      year: 2024
+      isbn13: "9781633437975"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "A focused, hands-on treatment of securing Spring applications, updated for Spring Boot 3 and modern OAuth2/OpenID Connect flows. It covers authentication and authorization configuration, method-level security, protecting REST APIs, and testing security setups rather than just theory. Useful for developers who already build Spring apps but find the security layer confusing."
+      best_for: "Spring developers who need to implement authentication, OAuth2, and API security correctly"
+      cover_image_url: "https://images.manning.com/264/352/resize/book/0/d2c908d-4001-43d9-8761-bb61c67754fd/Spilca-2ed-HI.png"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781633437975"
+        oreilly: "https://www.oreilly.com/search/?q=Spring%20Security%20in%20Action%2C%20Second%20Edition"
+        publisher: "https://www.manning.com/books/spring-security-in-action-second-edition"
+
+    - title: "Spring Microservices in Action, Second Edition"
+      author: "John Carnell, Illary Huaylupo Sánchez"
+      edition: "2nd Edition"
+      year: 2021
+      isbn13: "9781617296956"
+      publisher: "Manning Publications"
+      level: "Intermediate"
+      blurb: "A practical walkthrough of building microservices on Spring Boot and Spring Cloud, using a running example service built out chapter by chapter. This edition adds API routing with Spring Cloud Gateway, centralized logging with the ELK stack, metrics with Prometheus and Grafana, and deployment with Kubernetes and Istio. It leans toward operational concerns as much as code, which suits teams preparing to run services in production."
+      best_for: "Spring Boot developers moving from a monolith toward production-grade microservices"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781617296956-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617296956"
+        oreilly: "https://www.oreilly.com/search/?q=Spring%20Microservices%20in%20Action%2C%20Second%20Edition"
+        publisher: "https://www.manning.com/books/spring-microservices-in-action-second-edition"
+
+    - title: "Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry"
+      author: "Josh Long, Kenny Bastani"
+      year: 2017
+      isbn13: "9781449374648"
+      publisher: "O'Reilly Media"
+      level: "Advanced"
+      blurb: "Written by a longtime Spring Developer Advocate, this book explains how to reshape existing Java applications into cloud-native services rather than starting from a greenfield tutorial. It covers configuration management, resilient inter-service communication, data integration with Spring Data, and observability once services are running. It assumes familiarity with Spring already and pushes further into distributed-systems concerns."
+      best_for: "Experienced Spring developers modernizing legacy Java applications for the cloud"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781449374648-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781449374648"
+        oreilly: "https://www.oreilly.com/search/?q=Cloud%20Native%20Java"
+        publisher: "https://www.oreilly.com/library/view/cloud-native-java/9781449374631/"
+
+    - title: "Java Persistence with Hibernate, Second Edition"
+      author: "Christian Bauer, Gavin King, Gary Gregory"
+      edition: "2nd Edition"
+      year: 2015
+      isbn13: "9781617290459"
+      publisher: "Manning Publications"
+      level: "Advanced"
+      blurb: "Written in large part by Hibernate's original creator, this is a deep, example-driven dive into object-relational mapping rather than a quick-start guide. It builds a single application incrementally to explain mapping strategies, caching, transactions, and querying with JPA and Hibernate 5 in real detail. It rewards developers who want to understand why persistence behaves the way it does, not just how to annotate an entity."
+      best_for: "Backend developers who need a rigorous understanding of JPA and Hibernate internals"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781617290459-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617290459"
+        oreilly: "https://www.oreilly.com/search/?q=Java%20Persistence%20with%20Hibernate%2C%20Second%20Edition"
+        publisher: "https://www.manning.com/books/java-persistence-with-hibernate-second-edition"
+
+    - title: "Microservices Patterns: With examples in Java"
+      author: "Chris Richardson"
+      year: 2018
+      isbn13: "9781617294549"
+      publisher: "Manning Publications"
+      level: "Advanced"
+      blurb: "A catalog of over 40 named patterns for microservice architecture, covering service decomposition, saga-based transactions, event sourcing, and inter-service querying, with Java code samples throughout. It's organized as a reference of proven solutions to recurring distributed-systems problems rather than a single framework tutorial, drawing on the author's own microservices.io pattern language. Best read by teams already running or planning multiple services who need shared vocabulary and battle-tested designs."
+      best_for: "Architects and senior developers designing or untangling a microservices system"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781617294549-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781617294549"
+        oreilly: "https://www.oreilly.com/search/?q=Microservices%20Patterns"
+        publisher: "https://www.manning.com/books/microservices-patterns"
+
+    - title: "Spring Boot: Up and Running: Building Cloud Native Java and Kotlin Applications"
+      author: "Mark Heckler"
+      year: 2021
+      isbn13: "9781492076988"
+      publisher: "O'Reilly Media"
+      level: "Intermediate"
+      blurb: "A pragmatic, task-oriented introduction to Spring Boot from a longtime Spring advocate, covering both Java and Kotlin usage side by side. It moves quickly from application setup through data access, testing, and deploying to cloud platforms, favoring working examples over exhaustive framework theory. A reasonable pick for developers who want to get a Spring Boot service running and understand the pieces as they go."
+      best_for: "Developers who want a fast, practical path to a deployable Spring Boot application"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781492076988-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781492076988"
+        oreilly: "https://www.oreilly.com/search/?q=Spring%20Boot%3A%20Up%20and%20Running"
+        publisher: "https://www.oreilly.com/library/view/spring-boot-up/9781492076971/"
+
+- category: "Interview Prep & Certification"
+  slug: "interview-prep"
+  icon: "🎯"
+  level_label: "Certification & Interviews"
+  intro: "Whether you're chasing an Oracle Java certification or prepping for a coding interview at a Java-heavy shop, the right book turns scattered exam objectives and algorithm trivia into a focused study plan. This shelf pairs the current OCP Java certification study guide with the most trusted Java-focused coding interview references, so you can pick the one that matches whether you're closing a certification exam or a whiteboard round."
+  books:
+    - title: "OCP Oracle Certified Professional Java SE 21 Developer Study Guide: Exam 1Z0-830"
+      author: "Jeanne Boyarsky, Scott Selikoff"
+      year: 2024
+      isbn13: "9781394286614"
+      publisher: "Sybex (Wiley)"
+      level: "Advanced"
+      blurb: "A chapter-by-chapter walkthrough of every objective on Oracle's current single-exam Java SE 21 Developer certification (1Z0-830), from records and sealed classes to virtual threads and pattern matching. Each chapter ends with review questions modeled on the real exam format, and the book leans on the authors' long track record of writing the definitive Sybex Java cert guides. Best suited for developers who already know core Java and need a structured path to close gaps before test day."
+      best_for: "Preparing for the current Oracle Java SE 21 developer certification exam"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781394286614-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781394286614"
+        oreilly: "https://www.oreilly.com/library/view/ocp-oracle-certified/9781394286614/"
+        publisher: "https://www.wiley.com/en-us/OCP+Oracle+Certified+Professional+Java+SE+21+Developer+Study+Guide-p-9781394286621"
+
+    - title: "OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808"
+      author: "Jeanne Boyarsky, Scott Selikoff"
+      year: 2015
+      isbn13: "9781118957400"
+      publisher: "Sybex (Wiley)"
+      level: "Intermediate"
+      blurb: "Covers the foundational 1Z0-808 exam objectives, including Java syntax, OOP fundamentals, exception handling, and the functional-programming basics introduced with Java 8's lambdas and streams. It's aimed at newer Java developers rather than seasoned engineers, with plenty of exam-style review questions per chapter. Note that this targets an older exam version; confirm which Oracle certification track your employer or program currently requires before relying on it as your only study resource."
+      best_for: "Starting out on the Oracle Java certification path with core language fundamentals"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781118957400-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781118957400"
+        oreilly: "https://www.oreilly.com/search/?q=OCA%20Java%20SE%208%20Programmer%20I%20Study%20Guide"
+        publisher: "https://www.wiley.com/en-us/OCA:+Oracle+Certified+Associate+Java+SE+8+Programmer+I+Study+Guide:+Exam+1Z0-808-p-9781118957400"
+
+    - title: "Cracking the Coding Interview: 189 Programming Questions and Solutions"
+      author: "Gayle Laakmann McDowell"
+      edition: "6th Edition"
+      year: 2015
+      isbn13: "9780984782857"
+      publisher: "CareerCup"
+      level: "Intermediate"
+      blurb: "The best-known general coding interview book on the market, built around 189 practice problems with worked solutions and a walkthrough of the interview process itself, from resume screening to whiteboard etiquette. Most of the sample code and explanations in the main text are given in Java, making it a natural fit even though the techniques generalize to other languages. A good baseline choice for engineers preparing for interviews at large tech companies who want breadth across data structures and algorithms."
+      best_for: "General technical coding interview prep with Java-based sample solutions"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9780984782857-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9780984782857"
+        oreilly: "https://www.oreilly.com/search/?q=Cracking%20the%20Coding%20Interview"
+        publisher: "https://www.crackingthecodinginterview.com/"
+
+    - title: "Elements of Programming Interviews in Java: The Insiders' Guide"
+      author: "Adnan Aziz, Tsung-Hsien Lee, Amit Prakash"
+      year: 2015
+      isbn13: "9781517671273"
+      publisher: "CreateSpace Independent Publishing Platform"
+      level: "Advanced"
+      blurb: "A dense, Java-specific problem set of 300+ interview questions, organized by data structure and algorithmic technique, with tested Java implementations and discussion of edge cases and complexity trade-offs. It goes deeper into harder variants and less common structures than most interview books, plus a chapter on concurrency and one on system design basics. Best for candidates who already have solid Java fundamentals and want rigorous, high-difficulty practice rather than an introduction."
+      best_for: "Deep, Java-specific practice for rigorous coding interview rounds"
+      cover_image_url: "https://covers.openlibrary.org/b/isbn/9781517671273-L.jpg"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781517671273"
+        oreilly: "https://www.oreilly.com/search/?q=Elements%20of%20Programming%20Interviews%20in%20Java"
+        publisher: "https://elementsofprogramminginterviews.com/"
+
+    - title: "Java Coding Problems: Become an expert Java programmer by solving over 250 brand-new, modern, real-world problems"
+      author: "Anghel Leonard"
+      edition: "2nd Edition"
+      year: 2024
+      isbn13: "9781837633944"
+      publisher: "Packt Publishing"
+      level: "Advanced"
+      blurb: "A problem-and-solution format book that uses modern Java (through JDK 21) to work through practical coding challenges spanning strings, collections, generics, functional programming, concurrency, and performance tuning. Unlike pure interview-question books, it also explains the reasoning behind idiomatic, up-to-date Java practices, so it doubles as a way to sharpen day-to-day Java skills. Best for developers who already know Java's basics and want to practice against realistic, modern-Java problems rather than classic textbook algorithms."
+      best_for: "Practicing modern, real-world Java problems beyond classic algorithm drills"
+      cover_image_url: "https://books.google.com/books/content?id=9sce0AEACAAJ&printsec=frontcover&img=1&zoom=1"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781837633944"
+        oreilly: "https://www.oreilly.com/library/view/java-coding-problems/9781837633944/"
+        publisher: "https://www.packtpub.com/en-us/product/java-coding-problems-second-edition-9781837633944"
+
+    - title: "The Complete Coding Interview Guide in Java: An effective guide for aspiring Java developers to ace their programming interviews"
+      author: "Anghel Leonard"
+      year: 2020
+      isbn13: "9781839212062"
+      publisher: "Packt Publishing"
+      level: "Intermediate"
+      blurb: "Structures interview prep in two parts: a shorter section on non-technical interview rounds (resumes, behavioral questions) followed by a larger set of 200+ Java coding problems across arrays, strings, linked lists, sorting, searching, concurrency, and functional programming. It reads more like a guided course than a pure reference, walking through problem-solving strategy alongside the Java solutions. A solid pick for developers who want an all-in-one, Java-centric companion to the interview process."
+      best_for: "A guided, all-in-one Java coding interview prep course"
+      cover_image_url: "https://books.google.com/books/content?id=CDL6DwAAQBAJ&printsec=frontcover&img=1&zoom=1"
+      purchase_links:
+        amazon: "https://www.amazon.com/s?k=9781839212062"
+        oreilly: "https://www.oreilly.com/library/view/the-complete-coding/9781839212062/"
+        publisher: "https://www.packtpub.com/en-us/product/the-complete-coding-interview-guide-in-java-9781839212062"
