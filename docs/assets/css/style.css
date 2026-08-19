@@ -264,11 +264,20 @@ p { margin: 0 0 1em; }
 .hero h1 { max-width: 780px; margin-inline: auto; }
 
 .hero .lede {
-  max-width: 620px;
+  max-width: 680px;
   margin: 18px auto 0;
   font-size: 1.15rem;
   color: var(--color-text-muted);
 }
+
+.hero .lede a {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
+  text-underline-offset: 3px;
+}
+.hero .lede a:hover { text-decoration-color: var(--color-primary); }
 
 .hero-stats {
   display: flex;

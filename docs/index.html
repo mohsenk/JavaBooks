@@ -7,16 +7,17 @@ permalink: /
 
 <section class="hero">
   <div class="wrap">
-    <span class="kicker">Updated for {{ site.time | date: "%Y" }}</span>
-    <h1>Find the right Java book, every time.</h1>
-    <p class="lede">{{ site.data.books | size }} categories of hand-reviewed Java books — from your first "Hello, World" to JVM internals, Spring, and interview prep. No filler, no affiliate spam, just the books worth your time.</p>
+    {% assign total = 0 %}{% for cat in site.data.books %}{% assign total = total | plus: cat.books.size %}{% endfor %}
+    <span class="kicker">{{ total }} Books &middot; Updated {{ site.time | date: "%B %Y" }}</span>
+    <h1>The Best Java Books for Every Skill Level</h1>
+    <p class="lede">A hand-reviewed guide to the best Java books available today, with no filler and no paid placements — from <a href="{{ '/books/beginner/' | relative_url }}">beginner Java books</a> and <a href="{{ '/books/intermediate/' | relative_url }}">core Java fundamentals</a> to <a href="{{ '/books/advanced/' | relative_url }}">advanced concurrency and JVM internals</a>, plus <a href="{{ '/books/spring-enterprise/' | relative_url }}">Spring Boot</a>, <a href="{{ '/books/design-architecture/' | relative_url }}">design patterns</a>, and <a href="{{ '/books/interview-prep/' | relative_url }}">Java interview and certification prep</a>.</p>
     <div class="hero-actions">
-      <a class="btn" href="#categories">Browse the books</a>
+      <a class="btn" href="#categories">Browse Java books by level</a>
       <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">How we pick them</a>
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <strong>{% assign total = 0 %}{% for cat in site.data.books %}{% assign total = total | plus: cat.books.size %}{% endfor %}{{ total }}</strong>
+        <strong>{{ total }}</strong>
         <span>books reviewed</span>
       </div>
       <div class="stat">
