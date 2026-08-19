@@ -337,34 +337,43 @@ p { margin: 0 0 1em; }
    ========================================================================== */
 
 .book-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .book-card {
   display: flex;
-  gap: 18px;
+  gap: 26px;
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 20px;
+  padding: 26px 30px;
   box-shadow: var(--shadow-sm);
   transition: box-shadow 0.18s ease, transform 0.18s ease;
 }
 .book-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
 
 .book-card .cover {
-  flex: 0 0 96px;
+  flex: 0 0 120px;
 }
 .book-card .cover img {
-  width: 96px;
+  width: 120px;
   border-radius: 6px;
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--color-border);
   aspect-ratio: 2 / 3;
   object-fit: cover;
   background: var(--color-bg-alt);
+}
+
+@media (max-width: 640px) {
+  .book-card { flex-direction: column; padding: 22px; gap: 16px; }
+  .book-card .cover { flex: 0 0 auto; }
+  .book-card .cover img { width: 96px; }
 }
 
 .book-card .body { flex: 1; min-width: 0; }
