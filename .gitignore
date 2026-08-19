@@ -1,6 +1,2 @@
-docs/_site/
-docs/.sass-cache/
-docs/.jekyll-cache/
-docs/.jekyll-metadata
-docs/vendor/
-.bundle/
+node_modules/
+.cache/

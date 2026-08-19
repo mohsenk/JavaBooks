@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/</loc>
+</url>
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/about/</loc>
+</url>
+
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/books/beginner/</loc>
+</url>
+
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/books/intermediate/</loc>
+</url>
+
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/books/advanced/</loc>
+</url>
+
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/books/design-architecture/</loc>
+</url>
+
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/books/spring-enterprise/</loc>
+</url>
+
+<url>
+<loc>https://mohsenk.github.io/JavaBooks/books/interview-prep/</loc>
+</url>
+
+</urlset>

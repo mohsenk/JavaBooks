@@ -23,15 +23,23 @@ edit, or remove a book:
 
 ## Preview the site locally
 
-The live site is a Jekyll site in `docs/`:
+The site is built with [Eleventy](https://www.11ty.dev/) from the templates in
+`src/`. The built output is committed to `docs/`, which is what GitHub Pages
+serves.
 
 ```bash
-cd docs
-bundle install
-bundle exec jekyll serve
+npm install
+npm start
 ```
 
-Then open `http://localhost:4000/JavaBooks/`.
+Then open `http://localhost:8080/JavaBooks/`.
+
+Before opening a pull request that changes anything under `src/`, rebuild the
+site so `docs/` stays in sync:
+
+```bash
+npm run build
+```
 
 ## Reporting problems
 

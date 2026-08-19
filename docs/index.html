@@ -1,31 +1,125 @@
----
-layout: default
-title: "The Best Java Books by Level (2026)"
-description: "A hand-curated, regularly updated guide to the best Java books for beginners, intermediate and advanced developers — plus Spring, design patterns, and interview prep."
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin SEO tag -->
+<title>The Best Java Books by Level (2026) | Awesome Java Books</title>
+<meta name="generator" content="Eleventy" />
+<meta property="og:title" content="The Best Java Books by Level (2026)" />
+<meta name="author" content="Mohsen Karimi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A hand-curated, regularly updated guide to the best Java books for beginners, intermediate and advanced developers — plus Spring, design patterns, and interview prep." />
+<meta name="twitter:description" property="og:description" content="A hand-curated, regularly updated guide to the best Java books for beginners, intermediate and advanced developers — plus Spring, design patterns, and interview prep." />
+<link rel="canonical" href="https://mohsenk.github.io/JavaBooks/" />
+<meta property="og:url" content="https://mohsenk.github.io/JavaBooks/" />
+<meta property="og:site_name" content="Awesome Java Books" />
+<meta property="og:image" content="https://mohsenk.github.io/JavaBooks/assets/img/social-card.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://mohsenk.github.io/JavaBooks/assets/img/social-card.png" />
+<meta name="twitter:title" content="The Best Java Books by Level (2026)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Mohsen Karimi"},"description":"A hand-curated, regularly updated guide to the best Java books for beginners, intermediate and advanced developers — plus Spring, design patterns, and interview prep.","headline":"The Best Java Books by Level (2026)","image":"https://mohsenk.github.io/JavaBooks/assets/img/social-card.png","name":"Awesome Java Books","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://mohsenk.github.io/JavaBooks/assets/img/logo.svg"},"name":"Mohsen Karimi"},"sameAs":["https://github.com/mohsenk/JavaBooks"],"url":"https://mohsenk.github.io/JavaBooks/"}
+</script>
+<!-- End SEO tag -->
+<link rel="canonical" href="https://mohsenk.github.io/JavaBooks/">
+<link rel="alternate" type="application/rss+xml" title="Awesome Java Books" href="/JavaBooks/feed.xml">
+<link rel="icon" type="image/svg+xml" href="/JavaBooks/assets/img/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/JavaBooks/assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/JavaBooks/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/JavaBooks/assets/css/style.css">
+</head>
+<body>
+<a class="visually-hidden" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/JavaBooks/">
+      <span class="cup" aria-hidden="true">☕</span>
+      <span>Awesome Java Books</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">
+      <span aria-hidden="true">☰</span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li class="has-dropdown">
+          <button class="dropdown-toggle" id="booksToggle" aria-expanded="false" aria-controls="booksMenu">
+            Browse Books <span class="caret" aria-hidden="true">▾</span>
+          </button>
+          <div class="dropdown-menu" id="booksMenu">
+            
+            
+            <a href="/JavaBooks/books/beginner/" class="">
+              <span class="dm-icon">🌱</span>
+              <span>Beginner Java Books</span>
+            </a>
+            
+            
+            <a href="/JavaBooks/books/intermediate/" class="">
+              <span class="dm-icon">📘</span>
+              <span>Intermediate Java Books</span>
+            </a>
+            
+            
+            <a href="/JavaBooks/books/advanced/" class="">
+              <span class="dm-icon">⚙️</span>
+              <span>Advanced Java &amp; Concurrency Books</span>
+            </a>
+            
+            
+            <a href="/JavaBooks/books/design-architecture/" class="">
+              <span class="dm-icon">🏛️</span>
+              <span>Design Patterns &amp; Architecture Books</span>
+            </a>
+            
+            
+            <a href="/JavaBooks/books/spring-enterprise/" class="">
+              <span class="dm-icon">🍃</span>
+              <span>Spring &amp; Enterprise Java Books</span>
+            </a>
+            
+            
+            <a href="/JavaBooks/books/interview-prep/" class="">
+              <span class="dm-icon">🎯</span>
+              <span>Interview Prep &amp; Certification Books</span>
+            </a>
+            
+          </div>
+        </li>
+        <li><a href="/JavaBooks/about/" >About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
 
 <section class="hero">
   <div class="wrap">
-    {% assign total = 0 %}{% for cat in site.data.books %}{% assign total = total | plus: cat.books.size %}{% endfor %}
-    <span class="kicker">{{ total }} Books &middot; Updated {{ site.time | date: "%B %Y" }}</span>
+    <span class="kicker">43 Books &middot; Updated August 2026</span>
     <h1>The Best Java Books for Every Skill Level</h1>
-    <p class="lede">A hand-reviewed guide to the best Java books available today, with no filler and no paid placements — from <a href="{{ '/books/beginner/' | relative_url }}">beginner Java books</a> and <a href="{{ '/books/intermediate/' | relative_url }}">core Java fundamentals</a> to <a href="{{ '/books/advanced/' | relative_url }}">advanced concurrency and JVM internals</a>, plus <a href="{{ '/books/spring-enterprise/' | relative_url }}">Spring Boot</a>, <a href="{{ '/books/design-architecture/' | relative_url }}">design patterns</a>, and <a href="{{ '/books/interview-prep/' | relative_url }}">Java interview and certification prep</a>.</p>
+    <p class="lede">A hand-reviewed guide to the best Java books available today, with no filler and no paid placements — from <a href="/JavaBooks/books/beginner/">beginner Java books</a> and <a href="/JavaBooks/books/intermediate/">core Java fundamentals</a> to <a href="/JavaBooks/books/advanced/">advanced concurrency and JVM internals</a>, plus <a href="/JavaBooks/books/spring-enterprise/">Spring Boot</a>, <a href="/JavaBooks/books/design-architecture/">design patterns</a>, and <a href="/JavaBooks/books/interview-prep/">Java interview and certification prep</a>.</p>
     <div class="hero-actions">
       <a class="btn" href="#categories">Browse Java books by level</a>
-      <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">How we pick them</a>
+      <a class="btn btn-ghost" href="/JavaBooks/about/">How we pick them</a>
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <strong>{{ total }}</strong>
+        <strong>43</strong>
         <span>books reviewed</span>
       </div>
       <div class="stat">
-        <strong>{{ site.data.books | size }}</strong>
+        <strong>6</strong>
         <span>skill tracks</span>
       </div>
       <div class="stat">
-        <strong>{{ site.time | date: "%b %Y" }}</strong>
+        <strong>Aug 2026</strong>
         <span>last updated</span>
       </div>
     </div>
@@ -39,14 +133,49 @@ permalink: /
       <p>Every list is organized by who it's for, not just what's popular — so you spend less time picking and more time reading.</p>
     </div>
     <div class="category-grid">
-      {% for cat in site.data.books %}
-      <a class="category-card" href="{{ '/books/' | append: cat.slug | append: '/' | relative_url }}">
-        <span class="icon">{{ cat.icon }}</span>
-        <h3>{{ cat.category }}</h3>
-        <p>{{ cat.intro | truncatewords: 18 }}</p>
-        <span class="count">{{ cat.books | size }} books →</span>
+      
+      <a class="category-card" href="/JavaBooks/books/beginner/">
+        <span class="icon">🌱</span>
+        <h3>Beginner Java Books</h3>
+        <p>New to Java or to programming altogether? These are the best Java books for beginners in 2026 —...</p>
+        <span class="count">8 books →</span>
       </a>
-      {% endfor %}
+      
+      <a class="category-card" href="/JavaBooks/books/intermediate/">
+        <span class="icon">📘</span>
+        <h3>Intermediate Java Books</h3>
+        <p>Once you&#39;re comfortable with Java syntax, these are the best intermediate Java books for leveling up your skills...</p>
+        <span class="count">7 books →</span>
+      </a>
+      
+      <a class="category-card" href="/JavaBooks/books/advanced/">
+        <span class="icon">⚙️</span>
+        <h3>Advanced Java &amp; Concurrency</h3>
+        <p>These books go beyond day-to-day application code into how the JVM actually runs your programs — Java concurrency...</p>
+        <span class="count">6 books →</span>
+      </a>
+      
+      <a class="category-card" href="/JavaBooks/books/design-architecture/">
+        <span class="icon">🏛️</span>
+        <h3>Design Patterns &amp; Architecture</h3>
+        <p>These are the foundational reads Java developers reach for when they want to move past working code toward...</p>
+        <span class="count">8 books →</span>
+      </a>
+      
+      <a class="category-card" href="/JavaBooks/books/spring-enterprise/">
+        <span class="icon">🍃</span>
+        <h3>Spring &amp; Enterprise Java</h3>
+        <p>Spring Framework and Spring Boot power the majority of enterprise Java systems in production today, and this shelf...</p>
+        <span class="count">8 books →</span>
+      </a>
+      
+      <a class="category-card" href="/JavaBooks/books/interview-prep/">
+        <span class="icon">🎯</span>
+        <h3>Interview Prep &amp; Certification</h3>
+        <p>Whether you&#39;re chasing an Oracle Java certification or prepping for a coding interview at a Java-heavy shop, the...</p>
+        <span class="count">6 books →</span>
+      </a>
+      
     </div>
   </div>
 </section>
@@ -58,10 +187,73 @@ permalink: /
       <p>If you only read one book per stage of your Java journey, start here.</p>
     </div>
     <div class="book-grid">
-      {% for cat in site.data.books limit: 3 %}
-        {% assign pick = cat.books | first %}
-        {% include book-card.html book=pick %}
-      {% endfor %}
+      
+        
+<article class="book-card">
+  <div class="cover">
+    
+    <img src="https://covers.openlibrary.org/b/isbn/9781491910771-L.jpg" alt="Cover of Head First Java: A Learner&#39;s Guide to Real-World Programming by Kathy Sierra, Bert Bates, Trisha Gee" loading="lazy" width="96" height="144">
+    
+  </div>
+  <div class="body">
+    
+    <h3>Head First Java: A Learner&#39;s Guide to Real-World Programming, 3rd Edition</h3>
+    <div class="byline">by Kathy Sierra, Bert Bates, Trisha Gee &middot; 2022</div>
+    <span class="best-for">Best for: First-time programmers who want an engaging, visual approach</span>
+    <p class="blurb">A visually driven, puzzle-and-story approach to learning Java that trades dry syntax dumps for exercises, illustrations, and &#39;brain-friendly&#39; explanations. This third edition brings the material up through Java 17 and adds coverage of lambdas, streams, and modern collections. Best suited to readers who find traditional programming textbooks tough to stay engaged with.</p>
+    <div class="links">
+      <a href="https://www.amazon.com/s?k=9781491910771" rel="nofollow sponsored noopener" target="_blank">Amazon ↗</a>
+      <a href="https://www.oreilly.com/search/?q=Head%20First%20Java%203rd%20Edition" rel="nofollow noopener" target="_blank">O'Reilly ↗</a>
+      <a href="https://www.oreilly.com/library/view/head-first-java/9781492091646/" rel="nofollow noopener" target="_blank">Publisher ↗</a>
+    </div>
+  </div>
+</article>
+
+      
+        
+<article class="book-card">
+  <div class="cover">
+    
+    <img src="https://covers.openlibrary.org/b/isbn/9780134685991-L.jpg" alt="Cover of Effective Java by Joshua Bloch" loading="lazy" width="96" height="144">
+    
+  </div>
+  <div class="body">
+    
+    <h3>Effective Java, 3rd Edition</h3>
+    <div class="byline">by Joshua Bloch &middot; 2018</div>
+    <span class="best-for">Best for: Java developers who want to write more idiomatic, defensible code</span>
+    <p class="blurb">Joshua Bloch&#39;s item-by-item guide distills decades of API design experience from his time leading Java platform work at Sun and Google into concrete, justified rules covering generics, enums, lambdas, streams, and object lifecycle. The 3rd edition folds in Java 7 through 9 features while keeping the same terse, example-driven format. It works both as a cover-to-cover read once you already know core Java and as a reference to consult when a specific design question comes up.</p>
+    <div class="links">
+      <a href="https://www.amazon.com/s?k=9780134685991" rel="nofollow sponsored noopener" target="_blank">Amazon ↗</a>
+      <a href="https://www.oreilly.com/search/?q=Effective%20Java" rel="nofollow noopener" target="_blank">O'Reilly ↗</a>
+      <a href="https://www.pearson.com/en-us/subject-catalog/p/effective-java/P200000000138/9780134685991" rel="nofollow noopener" target="_blank">Publisher ↗</a>
+    </div>
+  </div>
+</article>
+
+      
+        
+<article class="book-card">
+  <div class="cover">
+    
+    <img src="https://covers.openlibrary.org/b/isbn/9780321349606-L.jpg" alt="Cover of Java Concurrency in Practice by Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea" loading="lazy" width="96" height="144">
+    
+  </div>
+  <div class="body">
+    
+    <h3>Java Concurrency in Practice</h3>
+    <div class="byline">by Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea &middot; 2006</div>
+    <span class="best-for">Best for: Developers who need a rigorous foundation in Java concurrency</span>
+    <p class="blurb">Written by Brian Goetz together with several members of the JSR-166 expert group (including Doug Lea and Joshua Bloch), this book breaks down the theory and practice of writing correct, thread-safe Java code — covering the Java Memory Model, locks, atomics, and the java.util.concurrent library. It remains the book many teams point new hires to before they touch multithreaded code. Best suited for developers who already know core Java and want a rigorous mental model for concurrency rather than a quick tutorial.</p>
+    <div class="links">
+      <a href="https://www.amazon.com/s?k=9780321349606" rel="nofollow sponsored noopener" target="_blank">Amazon ↗</a>
+      <a href="https://www.oreilly.com/search/?q=Java%20Concurrency%20in%20Practice" rel="nofollow noopener" target="_blank">O'Reilly ↗</a>
+      <a href="https://www.pearson.com/en-us/subject-catalog/p/java-concurrency-in-practice/P200000009374/9780321349606" rel="nofollow noopener" target="_blank">Publisher ↗</a>
+    </div>
+  </div>
+</article>
+
+      
     </div>
   </div>
 </section>
@@ -74,11 +266,11 @@ permalink: /
     <div class="faq">
       <details class="faq-item">
         <summary>What is the best book to learn Java from scratch?</summary>
-        <p><a href="{{ '/books/beginner/' | relative_url }}">Head First Java</a> is the most commonly recommended starting point because of its visual, example-driven teaching style. If you prefer a more traditional, reference-style approach, <a href="{{ '/books/beginner/' | relative_url }}">Java: The Complete Reference</a> is a strong alternative. See our full <a href="{{ '/books/beginner/' | relative_url }}">beginner Java books list</a> for more options.</p>
+        <p><a href="/JavaBooks/books/beginner/">Head First Java</a> is the most commonly recommended starting point because of its visual, example-driven teaching style. If you prefer a more traditional, reference-style approach, <a href="/JavaBooks/books/beginner/">Java: The Complete Reference</a> is a strong alternative. See our full <a href="/JavaBooks/books/beginner/">beginner Java books list</a> for more options.</p>
       </details>
       <details class="faq-item">
         <summary>What is the single most recommended Java book for professional developers?</summary>
-        <p><em>Effective Java</em> by Joshua Bloch is the book most experienced Java developers point to first — it's less about syntax and more about writing idiomatic, maintainable Java. See our <a href="{{ '/books/intermediate/' | relative_url }}">intermediate books list</a>.</p>
+        <p><em>Effective Java</em> by Joshua Bloch is the book most experienced Java developers point to first — it's less about syntax and more about writing idiomatic, maintainable Java. See our <a href="/JavaBooks/books/intermediate/">intermediate books list</a>.</p>
       </details>
       <details class="faq-item">
         <summary>Are older Java books still worth reading?</summary>
@@ -90,7 +282,7 @@ permalink: /
       </details>
       <details class="faq-item">
         <summary>How is this list curated and kept up to date?</summary>
-        <p>Every book here has been read or extensively reviewed against public tables of contents, sample chapters, and reader feedback before being added. See our full <a href="{{ '/about/' | relative_url }}">methodology</a> for how we select and periodically re-review books.</p>
+        <p>Every book here has been read or extensively reviewed against public tables of contents, sample chapters, and reader feedback before being added. See our full <a href="/JavaBooks/about/">methodology</a> for how we select and periodically re-review books.</p>
       </details>
     </div>
   </div>
@@ -144,3 +336,54 @@ permalink: /
   ]
 }
 </script>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Awesome Java Books</h4>
+        <p style="max-width:340px; color:var(--color-text-muted); font-size:0.92rem;">
+          A hand-curated, regularly updated guide to the best Java books —
+          organized by skill level so you can find the right one without
+          guessing. <a href="/JavaBooks/about/">Read our methodology →</a>
+        </p>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul>
+          
+          <li><a href="/JavaBooks/books/beginner/">Beginner Java Books</a></li>
+          
+          <li><a href="/JavaBooks/books/intermediate/">Intermediate Java Books</a></li>
+          
+          <li><a href="/JavaBooks/books/advanced/">Advanced Java &amp; Concurrency Books</a></li>
+          
+          <li><a href="/JavaBooks/books/design-architecture/">Design Patterns &amp; Architecture Books</a></li>
+          
+          <li><a href="/JavaBooks/books/spring-enterprise/">Spring &amp; Enterprise Java Books</a></li>
+          
+          <li><a href="/JavaBooks/books/interview-prep/">Interview Prep &amp; Certification Books</a></li>
+          
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="/JavaBooks/about/">About &amp; Methodology</a></li>
+          <li><a href="/JavaBooks/#categories">Browse Books</a></li>
+          <li><a href="https://github.com/mohsenk/JavaBooks">GitHub Repo</a></li>
+          <li><a href="https://github.com/mohsenk/JavaBooks/blob/main/LICENSE">License</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Awesome Java Books. Open source under MIT.</span>
+      <span>Book covers via Open Library &amp; Google Books.</span>
+    </div>
+  </div>
+</footer>
+<script src="/JavaBooks/assets/js/main.js" defer></script>
+
+</body>
+</html>

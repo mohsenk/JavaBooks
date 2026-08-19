@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Awesome Java Books</h4>
+        <p style="max-width:340px; color:var(--color-text-muted); font-size:0.92rem;">
+          A hand-curated, regularly updated guide to the best Java books —
+          organized by skill level so you can find the right one without
+          guessing. <a href="{{ '/about/' | relative_url }}">Read our methodology →</a>
+        </p>
+      </div>
+      <div>
+        <h4>Categories</h4>
+        <ul>
+          {% for cat in site.category_pages %}
+          <li><a href="{{ ('/books/' + cat.slug + '/') | relative_url }}">{{ cat.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About &amp; Methodology</a></li>
+          <li><a href="{{ '/#categories' | relative_url }}">Browse Books</a></li>
+          <li><a href="https://github.com/{{ site.repository }}">GitHub Repo</a></li>
+          <li><a href="https://github.com/{{ site.repository }}/blob/main/LICENSE">License</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Awesome Java Books. Open source under MIT.</span>
+      <span>Book covers via Open Library &amp; Google Books.</span>
+    </div>
+  </div>
+</footer>
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>

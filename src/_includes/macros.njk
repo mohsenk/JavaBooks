@@ -1,0 +1,64 @@
+{% macro bookCard(book, rank) %}
+<article class="book-card">
+  <div class="cover">
+    {% if book.cover_image_url %}
+    <img src="{{ book.cover_image_url }}" alt="Cover of {{ book.title }} by {{ book.author }}" loading="lazy" width="96" height="144">
+    {% else %}
+    <img src="{{ '/assets/img/cover-placeholder.svg' | relative_url }}" alt="Cover not available for {{ book.title }}" loading="lazy" width="96" height="144">
+    {% endif %}
+  </div>
+  <div class="body">
+    {% if rank %}<div class="rank">#{{ rank }}</div>{% endif %}
+    <h3>{{ book.title }}{% if book.edition %}, {{ book.edition }}{% endif %}</h3>
+    <div class="byline">by {{ book.author }}{% if book.year %} &middot; {{ book.year }}{% endif %}</div>
+    {% if book.best_for %}<span class="best-for">Best for: {{ book.best_for }}</span>{% endif %}
+    <p class="blurb">{{ book.blurb }}</p>
+    <div class="links">
+      {% if book.purchase_links.amazon %}<a href="{{ book.purchase_links.amazon }}" rel="nofollow sponsored noopener" target="_blank">Amazon ↗</a>{% endif %}
+      {% if book.purchase_links.oreilly %}<a href="{{ book.purchase_links.oreilly }}" rel="nofollow noopener" target="_blank">O'Reilly ↗</a>{% endif %}
+      {% if book.purchase_links.publisher %}<a href="{{ book.purchase_links.publisher }}" rel="nofollow noopener" target="_blank">Publisher ↗</a>{% endif %}
+    </div>
+  </div>
+</article>
+{% endmacro %}
+
+{% macro categoryPage(slug) %}
+{% set cat = books | findBySlug(slug) %}
+{% breadcrumbs cat.category, page.url %}
+
+<header class="page-header wrap">
+  <span class="level-pill">{{ cat.level_label | default("Java Books") }}</span>
+  <h1>{{ cat.category }}</h1>
+  <p class="lede">{{ cat.intro }}</p>
+</header>
+
+<section class="wrap" style="padding-bottom:64px;">
+  <div class="book-grid">
+    {% for book in cat.books %}
+      {{ bookCard(book, loop.index) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Explore other categories</h2>
+    </div>
+    <div class="category-grid">
+      {% for other in books %}
+        {% if other.slug != slug %}
+        <a class="category-card" href="{{ ('/books/' + other.slug + '/') | relative_url }}">
+          <span class="icon">{{ other.icon }}</span>
+          <h3>{{ other.category }}</h3>
+          <p>{{ other.intro | truncatewords(16) }}</p>
+          <span class="count">{{ other.books | length }} books →</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% itemListJsonLd cat.books, cat.category %}
+{% endmacro %}

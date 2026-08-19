@@ -1,0 +1,145 @@
+---
+layout: layouts/base.njk
+title: "The Best Java Books by Level (2026)"
+description: "A hand-curated, regularly updated guide to the best Java books for beginners, intermediate and advanced developers — plus Spring, design patterns, and interview prep."
+permalink: /
+---
+{% import "macros.njk" as m with context %}
+
+<section class="hero">
+  <div class="wrap">
+    <span class="kicker">{{ totalBooks }} Books &middot; Updated {{ buildTime | dateFormat("%B %Y") }}</span>
+    <h1>The Best Java Books for Every Skill Level</h1>
+    <p class="lede">A hand-reviewed guide to the best Java books available today, with no filler and no paid placements — from <a href="{{ '/books/beginner/' | relative_url }}">beginner Java books</a> and <a href="{{ '/books/intermediate/' | relative_url }}">core Java fundamentals</a> to <a href="{{ '/books/advanced/' | relative_url }}">advanced concurrency and JVM internals</a>, plus <a href="{{ '/books/spring-enterprise/' | relative_url }}">Spring Boot</a>, <a href="{{ '/books/design-architecture/' | relative_url }}">design patterns</a>, and <a href="{{ '/books/interview-prep/' | relative_url }}">Java interview and certification prep</a>.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#categories">Browse Java books by level</a>
+      <a class="btn btn-ghost" href="{{ '/about/' | relative_url }}">How we pick them</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <strong>{{ totalBooks }}</strong>
+        <span>books reviewed</span>
+      </div>
+      <div class="stat">
+        <strong>{{ books | length }}</strong>
+        <span>skill tracks</span>
+      </div>
+      <div class="stat">
+        <strong>{{ buildTime | dateFormat("%b %Y") }}</strong>
+        <span>last updated</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Pick your track</h2>
+      <p>Every list is organized by who it's for, not just what's popular — so you spend less time picking and more time reading.</p>
+    </div>
+    <div class="category-grid">
+      {% for cat in books %}
+      <a class="category-card" href="{{ ('/books/' + cat.slug + '/') | relative_url }}">
+        <span class="icon">{{ cat.icon }}</span>
+        <h3>{{ cat.category }}</h3>
+        <p>{{ cat.intro | truncatewords(18) }}</p>
+        <span class="count">{{ cat.books | length }} books →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Editor's picks</h2>
+      <p>If you only read one book per stage of your Java journey, start here.</p>
+    </div>
+    <div class="book-grid">
+      {% for cat in books | limit(3) %}
+        {{ m.bookCard(cat.books[0]) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq">
+      <details class="faq-item">
+        <summary>What is the best book to learn Java from scratch?</summary>
+        <p><a href="{{ '/books/beginner/' | relative_url }}">Head First Java</a> is the most commonly recommended starting point because of its visual, example-driven teaching style. If you prefer a more traditional, reference-style approach, <a href="{{ '/books/beginner/' | relative_url }}">Java: The Complete Reference</a> is a strong alternative. See our full <a href="{{ '/books/beginner/' | relative_url }}">beginner Java books list</a> for more options.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What is the single most recommended Java book for professional developers?</summary>
+        <p><em>Effective Java</em> by Joshua Bloch is the book most experienced Java developers point to first — it's less about syntax and more about writing idiomatic, maintainable Java. See our <a href="{{ '/books/intermediate/' | relative_url }}">intermediate books list</a>.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Are older Java books still worth reading?</summary>
+        <p>Yes, for concepts — no, for syntax details tied to a specific Java version. Books like <em>Design Patterns</em> (1994) and <em>Effective Java</em> remain relevant because they teach principles, not APIs. For anything version-specific (modules, records, virtual threads), pair an older classic with a modern, up-to-date resource.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need to read books in order, or can I jump to advanced topics?</summary>
+        <p>You can jump ahead if you already have the fundamentals from another language. Most of the books on this list assume you're comfortable with basic programming concepts (variables, loops, functions) even in the "beginner" track — they focus on what's Java-specific.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How is this list curated and kept up to date?</summary>
+        <p>Every book here has been read or extensively reviewed against public tables of contents, sample chapters, and reader feedback before being added. See our full <a href="{{ '/about/' | relative_url }}">methodology</a> for how we select and periodically re-review books.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best book to learn Java from scratch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Head First Java is the most commonly recommended starting point because of its visual, example-driven teaching style. Java: The Complete Reference is a strong alternative for a more traditional, reference-style approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the single most recommended Java book for professional developers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective Java by Joshua Bloch is the book most experienced Java developers point to first — it focuses on writing idiomatic, maintainable Java rather than syntax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are older Java books still worth reading?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes for concepts, no for version-specific syntax. Classics like Design Patterns and Effective Java remain relevant because they teach principles rather than APIs tied to a specific Java version."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to read Java books in order, or can I jump to advanced topics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can skip ahead if you already know basic programming concepts from another language, since the beginner track here focuses on what's Java-specific rather than general programming fundamentals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this Java books list curated and kept up to date?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every book is reviewed against public tables of contents, sample chapters, and reader feedback before being added, and the list is periodically re-reviewed for accuracy and relevance."
+      }
+    }
+  ]
+}
+</script>

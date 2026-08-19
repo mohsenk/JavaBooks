@@ -1,0 +1,5 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.lang }}"><generator uri="https://www.11ty.dev/" version="{{ eleventy.version }}">Eleventy</generator><link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml" /><link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" hreflang="{{ site.lang }}" /><updated>{{ buildTime.toISOString() }}</updated><id>{{ '/feed.xml' | absolute_url }}</id><title type="html">{{ site.title }}</title><subtitle>{{ site.description }}</subtitle><author><name>{{ site.author.name }}</name></author></feed>
