@@ -11,6 +11,14 @@ A hand-curated, regularly updated guide to **43 of the best Java books**, organi
 
 No filler, no paid placements — see [how books are chosen](https://best-devbooks.github.io/java-books/about/).
 
+## More book lists
+
+Part of **[best-devbooks](https://github.com/best-devbooks)** — hand-curated book lists for other languages:
+
+- [Kotlin](https://github.com/best-devbooks/kotlin-books)
+- [Rust](https://github.com/best-devbooks/rust-books)
+- [TypeScript](https://github.com/best-devbooks/typescript-books)
+
 ## Contents
 
 - [🌱 Beginner Java Books](#-beginner-java-books)
