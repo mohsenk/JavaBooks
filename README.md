@@ -1,15 +1,15 @@
 # ☕ Awesome Java Books
 
-[![Website](https://img.shields.io/badge/website-live-c1440e?style=flat-square)](https://mohsenk.github.io/JavaBooks/)
+[![Website](https://img.shields.io/badge/website-live-c1440e?style=flat-square)](https://best-devbooks.github.io/java-books/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 [![Last Commit](https://img.shields.io/github/last-commit/mohsenk/JavaBooks?style=flat-square)](https://github.com/mohsenk/JavaBooks/commits/main)
 
 A hand-curated, regularly updated guide to **43 of the best Java books**, organized by skill level — from your first "Hello, World" to JVM internals, Spring, and interview prep.
 
-**📖 [Browse the full site → mohsenk.github.io/JavaBooks](https://mohsenk.github.io/JavaBooks/)** — a nicer way to browse, with search-friendly category pages, always in sync with the list below.
+**📖 [Browse the full site → mohsenk.github.io/JavaBooks](https://best-devbooks.github.io/java-books/)** — a nicer way to browse, with search-friendly category pages, always in sync with the list below.
 
-No filler, no paid placements — see [how books are chosen](https://mohsenk.github.io/JavaBooks/about/).
+No filler, no paid placements — see [how books are chosen](https://best-devbooks.github.io/java-books/about/).
 
 ## Contents
 
