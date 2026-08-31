@@ -5,9 +5,9 @@ module.exports = {
     "A curated, hand-reviewed guide to the best Java books for beginners, " +
     "intermediate and advanced developers — covering core Java, concurrency, " +
     "design patterns, Spring, and interview prep.",
-  url: "https://mohsenk.github.io",
-  baseurl: "/JavaBooks",
-  repository: "mohsenk/JavaBooks",
+  url: "https://best-devbooks.github.io",
+  baseurl: "/java-books",
+  repository: "best-devbooks/java-books",
   lang: "en_US",
   locale: "en_US",
   author: {
@@ -17,7 +17,7 @@ module.exports = {
   image: "/assets/img/social-card.png",
   social: {
     name: "Awesome Java Books",
-    links: ["https://github.com/mohsenk/JavaBooks"],
+    links: ["https://github.com/best-devbooks/java-books"],
   },
   category_pages: [
     { slug: "beginner", title: "Beginner Java Books" },

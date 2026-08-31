@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/</loc>
+<loc>https://best-devbooks.github.io/java-books/</loc>
 </url>
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/about/</loc>
-</url>
-
-<url>
-<loc>https://mohsenk.github.io/JavaBooks/books/beginner/</loc>
+<loc>https://best-devbooks.github.io/java-books/about/</loc>
 </url>
 
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/books/intermediate/</loc>
+<loc>https://best-devbooks.github.io/java-books/books/beginner/</loc>
 </url>
 
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/books/advanced/</loc>
+<loc>https://best-devbooks.github.io/java-books/books/intermediate/</loc>
 </url>
 
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/books/design-architecture/</loc>
+<loc>https://best-devbooks.github.io/java-books/books/advanced/</loc>
 </url>
 
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/books/spring-enterprise/</loc>
+<loc>https://best-devbooks.github.io/java-books/books/design-architecture/</loc>
 </url>
 
 <url>
-<loc>https://mohsenk.github.io/JavaBooks/books/interview-prep/</loc>
+<loc>https://best-devbooks.github.io/java-books/books/spring-enterprise/</loc>
+</url>
+
+<url>
+<loc>https://best-devbooks.github.io/java-books/books/interview-prep/</loc>
 </url>
 
 </urlset>

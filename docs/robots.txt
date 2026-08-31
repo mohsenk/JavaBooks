@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mohsenk.github.io/JavaBooks/sitemap.xml
+Sitemap: https://best-devbooks.github.io/java-books/sitemap.xml

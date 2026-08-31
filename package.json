@@ -4,7 +4,7 @@
   "description": "Awesome Java Books — built with Eleventy",
   "scripts": {
     "build": "eleventy",
-    "start": "eleventy --serve --pathprefix=/JavaBooks/",
+    "start": "eleventy --serve --pathprefix=/java-books/",
     "debug": "DEBUG=Eleventy* eleventy"
   },
   "devDependencies": {

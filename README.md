@@ -3,11 +3,11 @@
 [![Website](https://img.shields.io/badge/website-live-c1440e?style=flat-square)](https://best-devbooks.github.io/java-books/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
-[![Last Commit](https://img.shields.io/github/last-commit/mohsenk/JavaBooks?style=flat-square)](https://github.com/mohsenk/JavaBooks/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/best-devbooks/java-books?style=flat-square)](https://github.com/best-devbooks/java-books/commits/main)
 
 A hand-curated, regularly updated guide to **43 of the best Java books**, organized by skill level — from your first "Hello, World" to JVM internals, Spring, and interview prep.
 
-**📖 [Browse the full site → mohsenk.github.io/JavaBooks](https://best-devbooks.github.io/java-books/)** — a nicer way to browse, with search-friendly category pages, always in sync with the list below.
+**📖 [Browse the full site → best-devbooks.github.io/java-books](https://best-devbooks.github.io/java-books/)** — a nicer way to browse, with search-friendly category pages, always in sync with the list below.
 
 No filler, no paid placements — see [how books are chosen](https://best-devbooks.github.io/java-books/about/).
 
@@ -25,7 +25,7 @@ No filler, no paid placements — see [how books are chosen](https://best-devboo
 
 ## 🌱 Beginner Java Books
 
-New to Java or to programming altogether? These are the best Java books for beginners in 2026 — hands-on, well-tested guides that take you from zero to writing real object-oriented programs. Each title below was picked for how clearly it explains core concepts like variables, classes, and control flow before moving on to Java's more advanced features. → [Full list on the site](https://mohsenk.github.io/JavaBooks/books/beginner/)
+New to Java or to programming altogether? These are the best Java books for beginners in 2026 — hands-on, well-tested guides that take you from zero to writing real object-oriented programs. Each title below was picked for how clearly it explains core concepts like variables, classes, and control flow before moving on to Java's more advanced features. → [Full list on the site](https://best-devbooks.github.io/java-books/books/beginner/)
 
 <table><tr>
 <td width="90" valign="top"><img src="https://covers.openlibrary.org/b/isbn/9781491910771-L.jpg" width="80" alt="Cover of Head First Java: A Learner's Guide to Real-World Programming, 3rd Edition"></td>
@@ -159,7 +159,7 @@ Developed from a university course the authors taught, this book builds up objec
 
 ## 📘 Intermediate Java Books
 
-Once you're comfortable with Java syntax, these are the best intermediate Java books for leveling up your skills — collections, generics, streams, lambdas, and cleaner idioms that separate a working programmer from a confident one. Each pick below focuses on writing more expressive, maintainable Java rather than absolute-beginner basics or deep JVM internals. → [Full list on the site](https://mohsenk.github.io/JavaBooks/books/intermediate/)
+Once you're comfortable with Java syntax, these are the best intermediate Java books for leveling up your skills — collections, generics, streams, lambdas, and cleaner idioms that separate a working programmer from a confident one. Each pick below focuses on writing more expressive, maintainable Java rather than absolute-beginner basics or deep JVM internals. → [Full list on the site](https://best-devbooks.github.io/java-books/books/intermediate/)
 
 <table><tr>
 <td width="90" valign="top"><img src="https://covers.openlibrary.org/b/isbn/9780134685991-L.jpg" width="80" alt="Cover of Effective Java, 3rd Edition"></td>
@@ -277,7 +277,7 @@ A practical, thorough guide to testing Java code well, built around JUnit 5's ne
 
 ## 🔧 Advanced Java and Concurrency
 
-These books go beyond day-to-day application code into how the JVM actually runs your programs — Java concurrency and multithreading, garbage collection, JIT compilation, generics internals, and performance tuning. They're written for developers who already know Java well and want to diagnose real production problems, not just follow generic tuning checklists. → [Full list on the site](https://mohsenk.github.io/JavaBooks/books/advanced/)
+These books go beyond day-to-day application code into how the JVM actually runs your programs — Java concurrency and multithreading, garbage collection, JIT compilation, generics internals, and performance tuning. They're written for developers who already know Java well and want to diagnose real production problems, not just follow generic tuning checklists. → [Full list on the site](https://best-devbooks.github.io/java-books/books/advanced/)
 
 <table><tr>
 <td width="90" valign="top"><img src="https://covers.openlibrary.org/b/isbn/9780321349606-L.jpg" width="80" alt="Cover of Java Concurrency in Practice"></td>
@@ -379,7 +379,7 @@ Written by one of Netty's core maintainers, this book explains the asynchronous,
 
 ## 📐 Design Patterns and Architecture
 
-These are the foundational reads Java developers reach for when they want to move past working code toward well-structured code — the original design pattern catalog, the books that shaped how the Java ecosystem thinks about clean code and clean architecture, and the enterprise and domain modeling classics that still underpin Spring-style application design today. → [Full list on the site](https://mohsenk.github.io/JavaBooks/books/design-architecture/)
+These are the foundational reads Java developers reach for when they want to move past working code toward well-structured code — the original design pattern catalog, the books that shaped how the Java ecosystem thinks about clean code and clean architecture, and the enterprise and domain modeling classics that still underpin Spring-style application design today. → [Full list on the site](https://best-devbooks.github.io/java-books/books/design-architecture/)
 
 <table><tr>
 <td width="90" valign="top"><img src="https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg" width="80" alt="Cover of Design Patterns: Elements of Reusable Object-Oriented Software"></td>
@@ -513,7 +513,7 @@ A practical, project-length walkthrough of test-driven development done at the o
 
 ## 🍃 Spring and Enterprise Java
 
-Spring Framework and Spring Boot power the majority of enterprise Java systems in production today, and this shelf collects the best Spring Boot books and enterprise Java references for building REST APIs, securing applications, and designing cloud-native microservices. Whether you're learning Spring for the first time or architecting distributed systems, these titles cover the practical patterns and tools real teams rely on. → [Full list on the site](https://mohsenk.github.io/JavaBooks/books/spring-enterprise/)
+Spring Framework and Spring Boot power the majority of enterprise Java systems in production today, and this shelf collects the best Spring Boot books and enterprise Java references for building REST APIs, securing applications, and designing cloud-native microservices. Whether you're learning Spring for the first time or architecting distributed systems, these titles cover the practical patterns and tools real teams rely on. → [Full list on the site](https://best-devbooks.github.io/java-books/books/spring-enterprise/)
 
 <table><tr>
 <td width="90" valign="top"><img src="https://images.manning.com/264/352/resize/book/c/108ea71-54af-47b6-9c39-148a1dc0ce4c/Walls-Spring-6ed-HI.png" width="80" alt="Cover of Spring in Action, Sixth Edition, 6th Edition"></td>
@@ -647,7 +647,7 @@ A pragmatic, task-oriented introduction to Spring Boot from a longtime Spring ad
 
 ## 🎯 Interview Prep and Certification
 
-Whether you're chasing an Oracle Java certification or prepping for a coding interview at a Java-heavy shop, the right book turns scattered exam objectives and algorithm trivia into a focused study plan. This shelf pairs the current OCP Java certification study guide with the most trusted Java-focused coding interview references, so you can pick the one that matches whether you're closing a certification exam or a whiteboard round. → [Full list on the site](https://mohsenk.github.io/JavaBooks/books/interview-prep/)
+Whether you're chasing an Oracle Java certification or prepping for a coding interview at a Java-heavy shop, the right book turns scattered exam objectives and algorithm trivia into a focused study plan. This shelf pairs the current OCP Java certification study guide with the most trusted Java-focused coding interview references, so you can pick the one that matches whether you're closing a certification exam or a whiteboard round. → [Full list on the site](https://best-devbooks.github.io/java-books/books/interview-prep/)
 
 <table><tr>
 <td width="90" valign="top"><img src="https://covers.openlibrary.org/b/isbn/9781394286614-L.jpg" width="80" alt="Cover of OCP Oracle Certified Professional Java SE 21 Developer Study Guide: Exam 1Z0-830"></td>

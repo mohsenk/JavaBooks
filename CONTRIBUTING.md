@@ -1,7 +1,7 @@
 # Contributing
 
 Thanks for wanting to improve Awesome Java Books! This repo powers both the
-GitHub README and the [live site](https://mohsenk.github.io/JavaBooks/) — both
+GitHub README and the [live site](https://best-devbooks.github.io/java-books/) — both
 are generated from a single data file, so most contributions only touch one place.
 
 ## Suggest or update a book
@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-Then open `http://localhost:8080/JavaBooks/`.
+Then open `http://localhost:8080/java-books/`.
 
 Before opening a pull request that changes anything under `src/`, rebuild the
 site so `docs/` stays in sync:
